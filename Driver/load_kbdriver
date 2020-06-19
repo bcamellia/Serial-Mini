@@ -1,0 +1,7 @@
+#!/bin/sh
+
+stty -F /dev/ttyS0 115200 cs8 -cstopb -parenb #set serial port settings
+/sbin/modprobe -r sunkbd #unload the Sun Keyboard driver which would otherwise attach to unknown serial devices
+/sbin/insmod osukb_port.ko #create serial io port
+/sbin/ldattach TTY /dev/ttyS0 #attach it to the default serial device
+/sbin/insmod osukb.ko #load the osu! serial keyboard driver
