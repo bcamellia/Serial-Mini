@@ -25,11 +25,11 @@
 #include "configuration.h"
 
 /******************************************************************************/
-/*																			  */
-/*		This is the firmware for a 4-key serial based keyboard                */
+/*                                                                            */
+/*      This is the firmware for a 4-key serial based keyboard                */
 /*      using a very low amount of latency, specifically                      */
-/*		for use with osu!.                                               */
-/*																			  */
+/*      for use with osu!.                                                    */
+/*                                                                            */
 /******************************************************************************/
 
 void update_switches(void);
@@ -40,10 +40,6 @@ int16 lastPortState = input_b();
 int16 portChange;
 
 /* -------------------------------------------------------------------------- */
-
-/*
- * main routine
- */
 
 void main(void) {
 
@@ -68,12 +64,14 @@ void main(void) {
  */
 
 void update_switches(void) {
+    
     //get key state changes
     portInput = input_b();
     portChange = lastPortState ^ portInput;
     lastPortState = portInput;
     BYTE pout = 0; //use a single byte to transmit keystate info
     BYTE rout = 0;
+    
     //check key on pin 4 (index finger)
     if (bit_test(portChange, 4)) {
         if (bit_test(lastPortState, 4)) { //key press detected
@@ -82,6 +80,7 @@ void update_switches(void) {
             bit_set(rout,1);
         }
     }
+    
     //check key and repeat for pin 2 (middle finger)
     if (bit_test(portChange, 2)) {
         if (bit_test(lastPortState, 2)) {
@@ -90,6 +89,7 @@ void update_switches(void) {
             bit_set(rout,3);
         }
     }
+    
     //check key and repeat for pin 3 (ring finger)
     if (bit_test(portChange, 3)) {
         if (bit_test(lastPortState, 3)) {
@@ -98,6 +98,7 @@ void update_switches(void) {
             bit_set(rout,5);
         }
     }
+    
     //check key on pin 5 (dash key)
     if (bit_test(portChange, 5)) {
         if (bit_test(lastPortState, 5)) {
