@@ -4,3 +4,4 @@ To-do:
 * Make dedicated PCB
 * Add measurements and example video
 * Add design files
+* Use plenty of test points (TP)
