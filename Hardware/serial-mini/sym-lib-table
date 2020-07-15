@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name serial-mini)(type Legacy)(uri ${KIPRJMOD}/serial-mini.lib)(options "")(descr ""))
+  (lib (name SparkFun-Capacitors)(type Legacy)(uri ${KIPRJMOD}/SparkFun-Capacitors.lib)(options "")(descr ""))
+)
