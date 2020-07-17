@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name serial-mini)(type KiCad)(uri /home/chris/GitHub/Serial-Mini/Hardware/serial-mini)(options "")(descr ""))
+)
