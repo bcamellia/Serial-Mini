@@ -1,5 +1,5 @@
 (sym_lib_table
   (lib (name serial-mini)(type Legacy)(uri ${KIPRJMOD}/serial-mini.lib)(options "")(descr ""))
-  (lib (name LTST-C19FD1WT)(type Legacy)(uri ${KIPRJMOD}/LTST-C19FD1WT.lib)(options "")(descr ""))
   (lib (name serial-mini-rescue)(type Legacy)(uri ${KIPRJMOD}/serial-mini-rescue.lib)(options "")(descr ""))
+  (lib (name LTST-C171KSKT)(type Legacy)(uri ${KIPRJMOD}/LTST-C171KSKT.lib)(options "")(descr ""))
 )

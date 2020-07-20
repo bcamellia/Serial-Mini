@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L serial-mini:RESISTOR0603 R2
+L serial-mini-rescue:RESISTOR0603-serial-mini R2
 U 1 1 5D1378FB
 P 5050 7800
 F 0 "R2" H 5050 7600 45  0000 C CNN
@@ -131,7 +131,7 @@ F 4 "" V 9991 3728 60  0000 L CNN "Field4"
 	0    1    1    0   
 $EndComp
 $Comp
-L serial-mini:RESISTOR0603 R8
+L serial-mini-rescue:RESISTOR0603-serial-mini R8
 U 1 1 5D175B3E
 P 10250 3950
 F 0 "R8" H 10250 3850 45  0000 C CNN
@@ -204,7 +204,7 @@ F 4 "" H 6108 7066 60  0000 L CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L serial-mini:RESISTOR0603 R4
+L serial-mini-rescue:RESISTOR0603-serial-mini R4
 U 1 1 5D18CD99
 P 5700 7400
 F 0 "R4" H 5700 7600 45  0000 C CNN
@@ -216,7 +216,7 @@ F 4 " " H 5700 7521 60  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L serial-mini:RESISTOR0603 R3
+L serial-mini-rescue:RESISTOR0603-serial-mini R3
 U 1 1 5D18DF88
 P 5400 7100
 F 0 "R3" V 5305 7168 45  0000 L CNN
@@ -228,7 +228,7 @@ F 4 " " V 5484 7168 60  0000 L CNN "Field4"
 	0    1    1    0   
 $EndComp
 $Comp
-L serial-mini:RESISTOR0603 R1
+L serial-mini-rescue:RESISTOR0603-serial-mini R1
 U 1 1 5D18FA64
 P 4700 8050
 F 0 "R1" V 4605 8118 45  0000 L CNN
@@ -644,7 +644,7 @@ Connection ~ 8900 7600
 Wire Wire Line
 	8900 7500 8900 7600
 $Comp
-L serial-mini:RESISTOR0603 R6
+L serial-mini-rescue:RESISTOR0603-serial-mini R6
 U 1 1 5D1BFC28
 P 9500 7300
 F 0 "R6" V 9405 7368 45  0000 L CNN
@@ -656,7 +656,7 @@ F 4 " " V 9584 7368 60  0000 L CNN "Field4"
 	0    1    1    0   
 $EndComp
 $Comp
-L serial-mini:RESISTOR0603 R5
+L serial-mini-rescue:RESISTOR0603-serial-mini R5
 U 1 1 5D1BF50B
 P 9150 7600
 F 0 "R5" H 9250 7700 45  0000 C CNN
@@ -795,7 +795,6 @@ Wire Wire Line
 	12950 5000 12950 5200
 NoConn ~ 11200 6100
 NoConn ~ 11200 6300
-NoConn ~ 11200 6500
 NoConn ~ 11200 6600
 NoConn ~ 11200 6700
 NoConn ~ 11200 6800
@@ -874,8 +873,6 @@ Wire Wire Line
 	10300 6150 9000 6150
 Wire Wire Line
 	9000 6350 10800 6350
-Wire Wire Line
-	10800 6350 10800 5900
 Wire Wire Line
 	5750 4550 5900 4550
 Wire Wire Line
@@ -1027,8 +1024,6 @@ Wire Wire Line
 	9650 4950 9650 4800
 Wire Wire Line
 	9650 4800 10400 4800
-Text GLabel 11650 3800 0    50   Input ~ 0
-57mA@1.7V
 Wire Wire Line
 	12400 2150 12250 2150
 Wire Wire Line
@@ -1047,7 +1042,7 @@ Connection ~ 12900 2600
 Wire Wire Line
 	12900 2600 13050 2600
 $Comp
-L serial-mini:RESISTOR0603 R11
+L serial-mini-rescue:RESISTOR0603-serial-mini R11
 U 1 1 5F2CAB90
 P 12150 2950
 F 0 "R11" H 12150 2850 45  0001 C CNN
@@ -1066,14 +1061,13 @@ Wire Wire Line
 	11950 2950 11850 2950
 Wire Wire Line
 	11850 2950 11850 2150
-Connection ~ 11850 2150
 Wire Wire Line
 	12800 4000 12900 4000
 Wire Wire Line
 	12900 4000 12900 3300
 Connection ~ 12900 3300
 $Comp
-L serial-mini:RESISTOR0603 R9
+L serial-mini-rescue:RESISTOR0603-serial-mini R9
 U 1 1 5F2EC868
 P 12100 3650
 F 0 "R9" H 12100 3550 45  0001 C CNN
@@ -1107,18 +1101,7 @@ $EndComp
 Wire Wire Line
 	11750 3100 11650 3100
 $Comp
-L Device:Q_NMOS_GDS Q3
-U 1 1 5F302B1F
-P 11550 4000
-F 0 "Q3" H 11755 4000 50  0000 L CNN
-F 1 "IRLML2060" H 11050 3900 50  0000 L CNN
-F 2 "serial-mini:IRLML2060TRPBF" H 11750 4100 50  0001 C CNN
-F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 11550 4000 50  0001 C CNN
-	1    11550 4000
-	1    0    0    -1  
-$EndComp
-$Comp
-L serial-mini:RESISTOR0603 R10
+L serial-mini-rescue:RESISTOR0603-serial-mini R10
 U 1 1 5F312013
 P 12150 2550
 F 0 "R10" H 12150 2450 45  0001 C CNN
@@ -1138,7 +1121,7 @@ Wire Wire Line
 Wire Wire Line
 	11750 2550 11750 3050
 $Comp
-L serial-mini:RESISTOR0603 R12
+L serial-mini-rescue:RESISTOR0603-serial-mini R12
 U 1 1 5F31FB62
 P 12150 3300
 F 0 "R12" H 12150 3200 45  0001 C CNN
@@ -1171,7 +1154,7 @@ F 4 "" H 12600 3300 50  0001 L BNN "Field4"
 	-1   0    0    1   
 $EndComp
 $Comp
-L serial-mini:RESISTOR0603 R14
+L serial-mini-rescue:RESISTOR0603-serial-mini R14
 U 1 1 5F3306F1
 P 12150 4000
 F 0 "R14" H 12150 3900 45  0001 C CNN
@@ -1190,7 +1173,7 @@ Connection ~ 11750 3100
 Wire Wire Line
 	11750 3100 11750 4000
 $Comp
-L serial-mini:RESISTOR0603 R16
+L serial-mini-rescue:RESISTOR0603-serial-mini R16
 U 1 1 5F346C83
 P 12200 4300
 F 0 "R16" H 12200 4200 45  0001 C CNN
@@ -1204,7 +1187,7 @@ $EndComp
 Wire Wire Line
 	12400 4100 12400 4300
 $Comp
-L serial-mini:RESISTOR0603 R13
+L serial-mini-rescue:RESISTOR0603-serial-mini R13
 U 1 1 5F34E631
 P 12150 3450
 F 0 "R13" H 12150 3350 45  0001 C CNN
@@ -1220,7 +1203,7 @@ Wire Wire Line
 Wire Wire Line
 	12400 3450 12350 3450
 $Comp
-L serial-mini:RESISTOR0603 R15
+L serial-mini-rescue:RESISTOR0603-serial-mini R15
 U 1 1 5F357E6E
 P 12200 2700
 F 0 "R15" H 12200 2600 45  0001 C CNN
@@ -1292,8 +1275,6 @@ F 3 "" H 11650 4200 50  0001 C CNN
 	1    11650 4200
 	1    0    0    -1  
 $EndComp
-Text GLabel 11650 2150 0    50   Input ~ 0
-69mA@1.7V
 $Comp
 L power:+5V #PWR025
 U 1 1 5F49BA0E
@@ -1306,7 +1287,7 @@ F 3 "" H 13050 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L serial-mini:RESISTOR0603 R7
+L serial-mini-rescue:RESISTOR0603-serial-mini R7
 U 1 1 5F2A10BE
 P 12050 2150
 F 0 "R7" H 12050 2050 45  0001 C CNN
@@ -1317,8 +1298,6 @@ F 4 " " H 12050 2271 60  0000 C CNN "Field4"
 	1    12050 2150
 	1    0    0    -1  
 $EndComp
-Text GLabel 11750 3050 0    50   Input ~ 0
-69mA@3V
 Wire Wire Line
 	12600 6800 12600 7200
 Connection ~ 12600 7200
@@ -1462,78 +1441,119 @@ $EndComp
 Wire Wire Line
 	7450 2850 7450 2700
 $Comp
-L serial-mini:LTST-C19FD1WT D?
-U 1 1 5F26AEEF
-P 5300 3950
-F 0 "D?" V 5717 4050 50  0000 C CNN
-F 1 "LTST-C19FD1WT" V 5626 4050 50  0000 C CNN
-F 2 "4-SMD" H 5300 3950 50  0001 L BNN
-F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2001-076/LTST-C19FD1WT.pdf" H 5300 3950 50  0001 C CNN
-	1    5300 3950
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:+5V #PWR?
 U 1 1 5F297A7B
-P 4400 3950
-F 0 "#PWR?" H 4400 3800 50  0001 C CNN
-F 1 "+5V" H 4415 4123 50  0000 C CNN
-F 2 "" H 4400 3950 50  0001 C CNN
-F 3 "" H 4400 3950 50  0001 C CNN
-	1    4400 3950
+P 4550 3750
+F 0 "#PWR?" H 4550 3600 50  0001 C CNN
+F 1 "+5V" H 4565 3923 50  0000 C CNN
+F 2 "" H 4550 3750 50  0001 C CNN
+F 3 "" H 4550 3750 50  0001 C CNN
+	1    4550 3750
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4400 3950 5000 3950
-$Comp
-L serial-mini:RESISTOR0603 R?
-U 1 1 5F2BDEC1
-P 5800 3750
-F 0 "R?" V 5705 3818 45  0000 L CNN
-F 1 "75" V 5789 3818 45  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5800 3900 20  0001 C CNN
-F 3 "" H 5800 3750 60  0001 C CNN
-F 4 " " V 5884 3818 60  0000 L CNN "Field4"
-	1    5800 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L serial-mini:RESISTOR0603 R?
-U 1 1 5F2C26AE
-P 5800 3950
-F 0 "R?" V 5705 4018 45  0000 L CNN
-F 1 "50" V 5789 4018 45  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5800 4100 20  0001 C CNN
-F 3 "" H 5800 3950 60  0001 C CNN
-F 4 " " V 5884 4018 60  0000 L CNN "Field4"
-	1    5800 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L serial-mini:RESISTOR0603 R?
-U 1 1 5F2C2BF1
-P 5800 4150
-F 0 "R?" V 5705 4218 45  0000 L CNN
-F 1 "75" V 5789 4218 45  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5800 4300 20  0001 C CNN
-F 3 "" H 5800 4150 60  0001 C CNN
-F 4 " " V 5884 4218 60  0000 L CNN "Field4"
-	1    5800 4150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5400 3750 5600 3750
-Wire Wire Line
-	6000 3750 6200 3750
-Wire Wire Line
-	6200 3950 6000 3950
-Wire Wire Line
-	5600 3950 5400 3950
-Wire Wire Line
-	5400 4150 5600 4150
-Wire Wire Line
-	6000 4150 6200 4150
 NoConn ~ 6200 5550
-NoConn ~ 10300 4550
-NoConn ~ 9850 4450
+Text Label 11650 2350 2    50   ~ 0
+1.7V@69mA
+Text Label 11750 3100 2    50   ~ 0
+3V@69mA
+Text Label 11650 3800 2    50   ~ 0
+1.7V@57mA
+$Comp
+L Device:Q_NMOS_GDS Q3
+U 1 1 5F302B1F
+P 11550 4000
+F 0 "Q3" H 11755 4000 50  0000 L CNN
+F 1 "IRLML2060" H 11050 3900 50  0000 L CNN
+F 2 "serial-mini:IRLML2060TRPBF" H 11750 4100 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 11550 4000 50  0001 C CNN
+	1    11550 4000
+	1    0    0    -1  
+$EndComp
+Text Label 5350 5750 2    50   ~ 0
+PWM-Hue
+Text Label 9300 3500 2    50   ~ 0
+PWM-Brightness
+$Comp
+L serial-mini:VAOL-S8WR4 CR?
+U 1 1 5F2EDA7B
+P 5400 3750
+F 0 "CR?" H 5600 4138 60  0000 C CNN
+F 1 "VAOL-S8WR4" H 5600 4032 60  0000 C CNN
+F 2 "LED_VCCLITE_0805_VCC" H 5600 3390 60  0001 C CNN
+F 3 "http://vcclite.com/_pdf/VAOL-S8WR4-LED-0805-white.pdf" H 5600 4032 60  0001 C CNN
+	1    5400 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 5900 10800 6350
+$Comp
+L power:+5V #PWR?
+U 1 1 5F31F39B
+P 10050 6500
+F 0 "#PWR?" H 10050 6350 50  0001 C CNN
+F 1 "+5V" H 10065 6673 50  0000 C CNN
+F 2 "" H 10050 6500 50  0001 C CNN
+F 3 "" H 10050 6500 50  0001 C CNN
+	1    10050 6500
+	0    -1   1    0   
+$EndComp
+$Comp
+L serial-mini:LTST-C171KSKT D?
+U 1 1 5F344729
+P 10700 6500
+F 0 "D?" H 10750 6283 50  0000 C CNN
+F 1 "LTST-C171KSKT" H 10750 6374 50  0000 C CNN
+F 2 "DIOC200X125X110" H 10700 6500 50  0001 L BNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf" H 10700 6500 50  0001 L BNN
+	1    10700 6500
+	-1   0    0    1   
+$EndComp
+$Comp
+L serial-mini:RESISTOR0603-serial-mini R?
+U 1 1 5F34B1D0
+P 10300 6500
+F 0 "R?" H 10300 6350 45  0000 C CNN
+F 1 "150" H 10300 6250 45  0000 C CNN
+F 2 "0603" H 10300 6650 20  0001 C CNN
+F 3 "" H 10300 6500 60  0001 C CNN
+F 4 " " H 10300 6621 60  0000 C CNN "Field4"
+	1    10300 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3750 6200 3750
+$Comp
+L serial-mini:RESISTOR0603-serial-mini R?
+U 1 1 5F3D4344
+P 5050 3750
+F 0 "R?" H 5050 4050 45  0000 C CNN
+F 1 "133" H 5050 3966 45  0000 C CNN
+F 2 "0603" H 5050 3900 20  0001 C CNN
+F 3 "" H 5050 3750 60  0001 C CNN
+F 4 " " H 5050 3871 60  0000 C CNN "Field4"
+	1    5050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3750 5400 3750
+Wire Wire Line
+	4850 3750 4550 3750
+Wire Wire Line
+	10050 6500 10100 6500
+Wire Wire Line
+	10800 6500 11200 6500
+Text Label 10800 6500 0    50   ~ 0
+3V@20mA
+Text Label 5850 3750 0    50   ~ 0
+2V@15mA
+Text Label 9650 4550 0    50   ~ 0
+Green
+Text Label 9650 4350 0    50   ~ 0
+Red
+Text Label 9650 4150 0    50   ~ 0
+Blue
+Text Label 9200 4950 0    50   ~ 0
+RX
+Text Label 9200 5150 0    50   ~ 0
+TX
 $EndSCHEMATC
