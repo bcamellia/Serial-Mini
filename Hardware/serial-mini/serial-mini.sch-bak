@@ -51,13 +51,13 @@ $EndComp
 $Comp
 L serial-mini:10UF-0603-6.3V-20% C2
 U 1 1 5D14601C
-P 5950 2700
-F 0 "C2" H 6058 2792 45  0000 L CNN
-F 1 "1UF" H 6058 2708 45  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5950 2950 20  0001 C CNN
-F 3 "" H 5950 2700 50  0001 C CNN
-F 4 "" H 6058 2666 60  0000 L CNN "Field4"
-	1    5950 2700
+P 5600 2600
+F 0 "C2" H 5708 2692 45  0000 L CNN
+F 1 "1UF" H 5708 2608 45  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5600 2850 20  0001 C CNN
+F 3 "" H 5600 2600 50  0001 C CNN
+F 4 "" H 5708 2566 60  0000 L CNN "Field4"
+	1    5600 2600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -123,8 +123,8 @@ L serial-mini:PICKIT_V3_HEADER J1
 U 1 1 5D174C5A
 P 9950 3150
 F 0 "J1" V 9865 3728 45  0000 L CNN
-F 1 "PICKIT_V3_HEADER" V 9949 3728 45  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 9950 3850 20  0001 C CNN
+F 1 "PICKIT V3 Header" V 9949 3728 45  0000 L CNN
+F 2 "serial-mini:PICKITv3" H 9950 3850 20  0001 C CNN
 F 3 "" H 9950 3150 50  0001 C CNN
 F 4 "" V 9991 3728 60  0000 L CNN "Field4"
 	1    9950 3150
@@ -296,7 +296,7 @@ P 4900 7400
 F 0 "S2" H 4900 7710 45  0000 C CNN
 F 1 "KAILH_HOT_SWAP" H 4900 7626 45  0000 C CNN
 F 2 "serial-mini:Kailh_MX_Socket" H 4900 7600 20  0001 C CNN
-F 3 "" H 4900 7400 50  0001 C CNN
+F 3 "https://cdn.shopify.com/s/files/1/3099/8088/files/CPG151101S11_MX_Socket.pdf?4656976507916097806" H 4900 7400 50  0001 C CNN
 F 4 "CHERRY_MX" H 4900 7531 60  0000 C CNN "Field4"
 	1    4900 7400
 	1    0    0    -1  
@@ -313,7 +313,7 @@ P 4200 7800
 F 0 "S1" H 4200 8110 45  0000 C CNN
 F 1 "KAILH_HOT_SWAP" H 4200 8026 45  0000 C CNN
 F 2 "serial-mini:Kailh_MX_Socket" H 4200 8000 20  0001 C CNN
-F 3 "" H 4200 7800 50  0001 C CNN
+F 3 "https://cdn.shopify.com/s/files/1/3099/8088/files/CPG151101S11_MX_Socket.pdf?4656976507916097806" H 4200 7800 50  0001 C CNN
 F 4 "CHERRY_MX" H 4200 7931 60  0000 C CNN "Field4"
 	1    4200 7800
 	1    0    0    -1  
@@ -358,7 +358,6 @@ Wire Wire Line
 Wire Wire Line
 	6200 5250 6200 5150
 NoConn ~ 10450 3250
-NoConn ~ 6200 4150
 NoConn ~ 6200 4350
 NoConn ~ 8300 7800
 NoConn ~ 8300 7900
@@ -518,56 +517,40 @@ F 3 "~" H 3850 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L serial-mini:DSPIC33CK64MP105 U3
+L serial-mini:DSPIC33CK64MP102 U3
 U 1 1 5D12D49B
 P 7200 4900
 F 0 "U3" H 7600 6415 50  0000 C CNN
-F 1 "DSPIC33CK64MP105" H 7600 6324 50  0000 C CNN
+F 1 "DSPIC33CK64MP102" H 7600 6324 50  0000 C CNN
 F 2 "serial-mini:‎DSPIC33CK32MP102" H 7200 4900 50  0001 C CNN
-F 3 "" H 7200 4900 50  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en609411" H 7200 4900 50  0001 C CNN
 	1    7200 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L serial-mini:MIC5504-3.3YMT-TZ U5
-U 1 1 5D52CEFB
-P 6800 2700
-F 0 "U5" H 6850 3167 50  0000 C CNN
-F 1 "MIC5504-3.3YMT-TZ" H 6850 3076 50  0000 C CNN
-F 2 "serial-mini:MIC5504" H 6800 2700 50  0001 L BNN
-F 3 "" H 6800 2700 50  0001 L BNN
-F 4 "TDFN-4 Microchip" H 6800 2700 50  0001 L BNN "Field4"
-F 5 "https://www.digikey.com/product-detail/en/microchip-technology/MIC5504-3.3YMT-TZ/576-4310-1-ND/3879201?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 6800 2700 50  0001 L BNN "Field5"
-F 6 "Single 300mA LDO with Enable Pull-Down & Auto Discharge, 4 UDFN 1.01.0mm T/R" H 6800 2700 50  0001 L BNN "Field6"
-F 7 "Microchip" H 6800 2700 50  0001 L BNN "Field7"
-F 8 "576-4310-1-ND" H 6800 2700 50  0001 L BNN "Field8"
-	1    6800 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR016
 U 1 1 5D531D3A
-P 5800 2500
-F 0 "#PWR016" H 5800 2350 50  0001 C CNN
-F 1 "+5V" H 5815 2673 50  0000 C CNN
-F 2 "" H 5800 2500 50  0001 C CNN
-F 3 "" H 5800 2500 50  0001 C CNN
-	1    5800 2500
+P 5450 2400
+F 0 "#PWR016" H 5450 2250 50  0001 C CNN
+F 1 "+5V" H 5465 2573 50  0000 C CNN
+F 2 "" H 5450 2400 50  0001 C CNN
+F 3 "" H 5450 2400 50  0001 C CNN
+	1    5450 2400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR017
 U 1 1 5D539259
-P 5950 3100
-F 0 "#PWR017" H 5950 2850 50  0001 C CNN
-F 1 "GND" H 5955 2927 50  0000 C CNN
-F 2 "" H 5950 3100 50  0001 C CNN
-F 3 "" H 5950 3100 50  0001 C CNN
-	1    5950 3100
+P 5600 3000
+F 0 "#PWR017" H 5600 2750 50  0001 C CNN
+F 1 "GND" H 5605 2827 50  0000 C CNN
+F 2 "" H 5600 3000 50  0001 C CNN
+F 3 "" H 5600 3000 50  0001 C CNN
+	1    5600 3000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 2800 5950 3100
+	5600 2700 5600 2800
 $Comp
 L power:+3V3 #PWR019
 U 1 1 5D53C6D0
@@ -579,8 +562,6 @@ F 3 "" H 7700 2500 50  0001 C CNN
 	1    7700 2500
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	7500 2800 7500 2900
 $Comp
 L serial-mini:10UF-0603-6.3V-20% C12
 U 1 1 5D542C26
@@ -604,13 +585,6 @@ F 3 "" H 7650 3050 50  0001 C CNN
 	1    7650 3050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7650 2800 7650 2900
-Wire Wire Line
-	7500 2900 7650 2900
-Connection ~ 7650 2900
-Wire Wire Line
-	7650 2900 7650 3050
 Connection ~ 3700 5550
 Wire Wire Line
 	3700 5550 3800 5550
@@ -625,7 +599,7 @@ P 6100 7400
 F 0 "U4" H 7200 7787 60  0000 C CNN
 F 1 "SN74AHC14RGYR" H 7200 7681 60  0000 C CNN
 F 2 "serial-mini:SN74AHC14RGYR" H 7200 7640 60  0001 C CNN
-F 3 "" H 6100 7400 60  0000 C CNN
+F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ahc14" H 6100 7400 60  0001 C CNN
 	1    6100 7400
 	1    0    0    -1  
 $EndComp
@@ -712,7 +686,7 @@ P 9900 7600
 F 0 "S3" H 9900 7910 45  0000 C CNN
 F 1 "KAILH_HOT_SWAP" H 9900 7826 45  0000 C CNN
 F 2 "serial-mini:Kailh_MX_Socket" H 9900 7800 20  0001 C CNN
-F 3 "" H 9900 7600 50  0001 C CNN
+F 3 "https://cdn.shopify.com/s/files/1/3099/8088/files/CPG151101S11_MX_Socket.pdf?4656976507916097806" H 9900 7600 50  0001 C CNN
 F 4 "CHERRY_MX" H 9900 7731 60  0000 C CNN "Field4"
 	1    9900 7600
 	1    0    0    -1  
@@ -825,28 +799,6 @@ NoConn ~ 11200 6500
 NoConn ~ 11200 6600
 NoConn ~ 11200 6700
 NoConn ~ 11200 6800
-$Comp
-L Device:LED D1
-U 1 1 5D6489DE
-P 5300 5550
-F 0 "D1" H 5293 5766 50  0000 C CNN
-F 1 "RED LED" H 5293 5675 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Castellated" H 5300 5550 50  0001 C CNN
-F 3 "~" H 5300 5550 50  0001 C CNN
-	1    5300 5550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR015
-U 1 1 5D657634
-P 5100 5550
-F 0 "#PWR015" H 5100 5300 50  0001 C CNN
-F 1 "GND" V 5105 5422 50  0000 R CNN
-F 2 "" H 5100 5550 50  0001 C CNN
-F 3 "" H 5100 5550 50  0001 C CNN
-	1    5100 5550
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	13550 6150 13450 6150
 Wire Wire Line
@@ -924,8 +876,6 @@ Wire Wire Line
 	9000 6350 10800 6350
 Wire Wire Line
 	10800 6350 10800 5900
-NoConn ~ 6200 3750
-NoConn ~ 6200 3950
 Wire Wire Line
 	5750 4550 5900 4550
 Wire Wire Line
@@ -937,9 +887,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 5250 5900 5250
 Wire Wire Line
-	5800 2500 5950 2500
-Wire Wire Line
-	7500 2500 7650 2500
+	5450 2400 5600 2400
 $Comp
 L serial-mini:SIT2001BI-S2-33S-100.000000D U1
 U 1 1 5D55178B
@@ -947,7 +895,7 @@ P 2000 5350
 F 0 "U1" H 2800 5737 60  0000 C CNN
 F 1 "SIT2001BI-S2-33S-100.000000D" H 2800 5631 60  0000 C CNN
 F 2 "serial-mini:SIT2001BI-S2-33S-100.000000D" H 2800 5590 60  0001 C CNN
-F 3 "" H 2000 5350 60  0000 C CNN
+F 3 "https://www.digikey.com/product-detail/en/sitime/SIT2001BI-S2-33S-100.000000E/1473-SIT2001BI-S2-33S-100.000000E-ND/11292035" H 2000 5350 60  0001 C CNN
 	1    2000 5350
 	1    0    0    -1  
 $EndComp
@@ -958,11 +906,11 @@ P 11900 6400
 F 0 "U2" H 11900 7370 50  0000 C CNN
 F 1 "FT230XQ-R" H 11900 7279 50  0000 C CNN
 F 2 "serial-mini:FT230XQ" H 11900 6400 50  0001 L BNN
-F 3 "" H 11900 6400 50  0001 L BNN
+F 3 "https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT230XQ-R/768-1130-1-ND/3029158?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 11900 6400 50  0001 L BNN
 F 4 "768-1130-1-ND" H 11900 6400 50  0001 L BNN "Field4"
 F 5 "QFN-16 FTDI" H 11900 6400 50  0001 L BNN "Field5"
 F 6 "FTDI," H 11900 6400 50  0001 L BNN "Field6"
-F 7 "https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT230XQ-R/768-1130-1-ND/3029158?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 11900 6400 50  0001 L BNN "Field7"
+F 7 "" H 11900 6400 50  0001 L BNN "Field7"
 F 8 "FT230XQ-R" H 11900 6400 50  0001 L BNN "Field8"
 	1    11900 6400
 	-1   0    0    -1  
@@ -974,8 +922,8 @@ P 12600 4000
 F 0 "D4" H 12600 3635 50  0000 C CNN
 F 1 "SMD-LED-RGB(4P-0606)" H 12600 3726 50  0001 C CNN
 F 2 "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 12600 4000 50  0001 L BNN
-F 3 "HSMF-C118" H 12600 4000 50  0001 L BNN
-F 4 "HSMF-C118" H 12600 4000 50  0001 L BNN "Field4"
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616SEEZGKQBKC.pdf" H 12600 4000 50  0001 L BNN
+F 4 "" H 12600 4000 50  0001 L BNN "Field4"
 	1    12600 4000
 	-1   0    0    1   
 $EndComp
@@ -986,8 +934,8 @@ P 12600 2600
 F 0 "D2" H 12600 2235 50  0000 C CNN
 F 1 "LED" H 12600 2326 50  0001 C CNN
 F 2 "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 12600 2600 50  0001 L BNN
-F 3 "HSMF-C118" H 12600 2600 50  0001 L BNN
-F 4 "HSMF-C118" H 12600 2600 50  0001 L BNN "Field4"
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616SEEZGKQBKC.pdf" H 12600 2600 50  0001 L BNN
+F 4 "" H 12600 2600 50  0001 L BNN "Field4"
 	1    12600 2600
 	-1   0    0    1   
 $EndComp
@@ -996,9 +944,9 @@ L serial-mini:3-106505-2 J3
 U 1 1 5F07D53E
 P 10400 4700
 F 0 "J3" H 10928 4353 60  0000 L CNN
-F 1 "3-106505-2" H 10928 4247 60  0000 L CNN
+F 1 "Serial Port" H 10928 4247 60  0000 L CNN
 F 2 "serial-mini:3-106505-2" H 10800 4240 60  0001 C CNN
-F 3 "" H 10400 4700 60  0000 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82068_AMPLIMITE_Right-Angle_Posted_Conn&DocType=CS&DocLang=English" H 10400 4700 60  0001 C CNN
 	1    10400 4700
 	1    0    0    -1  
 $EndComp
@@ -1061,9 +1009,9 @@ L Device:Q_NMOS_GDS Q1
 U 1 1 5F219BEC
 P 11550 2600
 F 0 "Q1" H 11755 2600 50  0000 L CNN
-F 1 "IRLML2060" H 11754 2555 50  0001 L CNN
+F 1 "IRLML2060" H 11100 2750 50  0000 L CNN
 F 2 "serial-mini:IRLML2060TRPBF" H 11750 2700 50  0001 C CNN
-F 3 "~" H 11550 2600 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 11550 2600 50  0001 C CNN
 	1    11550 2600
 	1    0    0    -1  
 $EndComp
@@ -1150,9 +1098,9 @@ L Device:Q_NMOS_GDS Q2
 U 1 1 5F2FA02B
 P 11550 3300
 F 0 "Q2" H 11755 3300 50  0000 L CNN
-F 1 "IRLML2060" H 11754 3255 50  0001 L CNN
+F 1 "IRLML2060" H 11200 3450 50  0000 L CNN
 F 2 "serial-mini:IRLML2060TRPBF" H 11750 3400 50  0001 C CNN
-F 3 "~" H 11550 3300 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 11550 3300 50  0001 C CNN
 	1    11550 3300
 	1    0    0    -1  
 $EndComp
@@ -1163,9 +1111,9 @@ L Device:Q_NMOS_GDS Q3
 U 1 1 5F302B1F
 P 11550 4000
 F 0 "Q3" H 11755 4000 50  0000 L CNN
-F 1 "IRLML2060" H 11754 3955 50  0001 L CNN
+F 1 "IRLML2060" H 11050 3900 50  0000 L CNN
 F 2 "serial-mini:IRLML2060TRPBF" H 11750 4100 50  0001 C CNN
-F 3 "~" H 11550 4000 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 11550 4000 50  0001 C CNN
 	1    11550 4000
 	1    0    0    -1  
 $EndComp
@@ -1217,8 +1165,8 @@ P 12600 3300
 F 0 "D3" H 12600 2935 50  0000 C CNN
 F 1 "LED" H 12600 3026 50  0001 C CNN
 F 2 "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 12600 3300 50  0001 L BNN
-F 3 "HSMF-C118" H 12600 3300 50  0001 L BNN
-F 4 "HSMF-C118" H 12600 3300 50  0001 L BNN "Field4"
+F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616SEEZGKQBKC.pdf" H 12600 3300 50  0001 L BNN
+F 4 "" H 12600 3300 50  0001 L BNN "Field4"
 	1    12600 3300
 	-1   0    0    1   
 $EndComp
@@ -1423,21 +1371,20 @@ F 3 "" H 9500 6950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 2600 6200 2500
-Connection ~ 6200 2500
-Connection ~ 5950 2500
+	5850 2500 5850 2400
+Connection ~ 5600 2400
 Wire Wire Line
-	5950 2500 6200 2500
+	5600 2400 5850 2400
 $Comp
 L serial-mini:10118193-0001LF J2
 U 1 1 5D4D8C06
 P 13950 5850
 F 0 "J2" H 13842 5285 50  0000 C CNN
-F 1 "10118193-0001LF" H 13842 5376 50  0000 C CNN
+F 1 "USB Micro B" H 13842 5376 50  0000 C CNN
 F 2 "serial-mini:FCI_10118193-0001LF" H 13950 5850 50  0001 L BNN
-F 3 "" H 13950 5850 50  0001 L BNN
+F 3 "https://www.digikey.com/product-detail/en/amphenol-icc-fci/10118193-0001LF/609-4616-1-ND/2785380?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 13950 5850 50  0001 L BNN
 F 4 "None" H 13950 5850 50  0001 L BNN "Field4"
-F 5 "https://www.digikey.com/product-detail/en/amphenol-icc-fci/10118193-0001LF/609-4616-1-ND/2785380?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 13950 5850 50  0001 L BNN "Field5"
+F 5 "" H 13950 5850 50  0001 L BNN "Field5"
 F 6 "10118193-0001LF" H 13950 5850 50  0001 L BNN "Field6"
 F 7 "Amphenol ICC" H 13950 5850 50  0001 L BNN "Field7"
 F 8 "609-4616-1-ND" H 13950 5850 50  0001 L BNN "Field8"
@@ -1449,25 +1396,6 @@ Wire Wire Line
 Wire Wire Line
 	5900 4950 5750 4950
 Connection ~ 5900 4950
-Connection ~ 7500 2900
-Wire Wire Line
-	5100 5550 5150 5550
-$Comp
-L serial-mini:RESISTOR0603 R17
-U 1 1 5F6DAE92
-P 5750 5550
-F 0 "R17" H 5750 5450 45  0001 C CNN
-F 1 "90" H 5750 5650 45  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5750 5700 20  0001 C CNN
-F 3 "" H 5750 5550 60  0001 C CNN
-F 4 " " H 5750 5671 60  0000 C CNN "Field4"
-	1    5750 5550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5950 5550 6200 5550
-Wire Wire Line
-	5550 5550 5450 5550
 $Comp
 L serial-mini:3352T-1-103LF R19
 U 1 1 5F1A3874
@@ -1498,4 +1426,112 @@ F 6 "IPC-7351B" H 4750 6150 50  0001 L BNN "Field6"
 $EndComp
 Wire Wire Line
 	5350 6150 4950 6150
+$Comp
+L serial-mini:MIC5504-3.3YM5-TR U?
+U 1 1 5F15D4B5
+P 5850 2500
+F 0 "U?" H 6650 2887 60  0000 C CNN
+F 1 "MIC5504-3.3YM5-TR" H 6650 2781 60  0000 C CNN
+F 2 "SOT-23-5_MC_MCH" H 6650 2740 60  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/microchip-technology/MIC5504-3.3YMT-TZ/576-4310-1-ND/3879201?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 6650 2781 60  0001 C CNN
+	1    5850 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 2600 5850 2800
+Wire Wire Line
+	5850 2800 5600 2800
+Connection ~ 5600 2800
+Wire Wire Line
+	5600 2800 5600 3000
+Wire Wire Line
+	7650 2800 7650 3050
+Wire Wire Line
+	7450 2500 7650 2500
+$Comp
+L power:+5V #PWR?
+U 1 1 5F2015BE
+P 7450 2850
+F 0 "#PWR?" H 7450 2700 50  0001 C CNN
+F 1 "+5V" H 7465 3023 50  0000 C CNN
+F 2 "" H 7450 2850 50  0001 C CNN
+F 3 "" H 7450 2850 50  0001 C CNN
+	1    7450 2850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7450 2850 7450 2700
+$Comp
+L serial-mini:LTST-C19FD1WT D?
+U 1 1 5F26AEEF
+P 5300 3950
+F 0 "D?" V 5717 4050 50  0000 C CNN
+F 1 "LTST-C19FD1WT" V 5626 4050 50  0000 C CNN
+F 2 "4-SMD" H 5300 3950 50  0001 L BNN
+F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2001-076/LTST-C19FD1WT.pdf" H 5300 3950 50  0001 C CNN
+	1    5300 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F297A7B
+P 4400 3950
+F 0 "#PWR?" H 4400 3800 50  0001 C CNN
+F 1 "+5V" H 4415 4123 50  0000 C CNN
+F 2 "" H 4400 3950 50  0001 C CNN
+F 3 "" H 4400 3950 50  0001 C CNN
+	1    4400 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 3950 5000 3950
+$Comp
+L serial-mini:RESISTOR0603 R?
+U 1 1 5F2BDEC1
+P 5800 3750
+F 0 "R?" V 5705 3818 45  0000 L CNN
+F 1 "75" V 5789 3818 45  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5800 3900 20  0001 C CNN
+F 3 "" H 5800 3750 60  0001 C CNN
+F 4 " " V 5884 3818 60  0000 L CNN "Field4"
+	1    5800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L serial-mini:RESISTOR0603 R?
+U 1 1 5F2C26AE
+P 5800 3950
+F 0 "R?" V 5705 4018 45  0000 L CNN
+F 1 "50" V 5789 4018 45  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5800 4100 20  0001 C CNN
+F 3 "" H 5800 3950 60  0001 C CNN
+F 4 " " V 5884 4018 60  0000 L CNN "Field4"
+	1    5800 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L serial-mini:RESISTOR0603 R?
+U 1 1 5F2C2BF1
+P 5800 4150
+F 0 "R?" V 5705 4218 45  0000 L CNN
+F 1 "75" V 5789 4218 45  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5800 4300 20  0001 C CNN
+F 3 "" H 5800 4150 60  0001 C CNN
+F 4 " " V 5884 4218 60  0000 L CNN "Field4"
+	1    5800 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3750 5600 3750
+Wire Wire Line
+	6000 3750 6200 3750
+Wire Wire Line
+	6200 3950 6000 3950
+Wire Wire Line
+	5600 3950 5400 3950
+Wire Wire Line
+	5400 4150 5600 4150
+Wire Wire Line
+	6000 4150 6200 4150
+NoConn ~ 6200 5550
 $EndSCHEMATC
