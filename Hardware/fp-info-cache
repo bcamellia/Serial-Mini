@@ -1,4 +1,4 @@
-18657588273864053
+18652803500961053
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82047,13 +82047,6 @@ footprints
 11
 11
 footprints
-4-SMD
-
-
-0
-4
-4
-footprints
 74HC14D
 
 
@@ -82061,19 +82054,19 @@ footprints
 14
 14
 footprints
-0603
-GENERIC 1608 (0603) PACKAGE
-GENERIC 1608 (0603) PACKAGE
-0
-2
-2
-footprints
 BSS123LT1G
 
 
 0
 3
 3
+footprints
+CLVBA-FKA-CAEDH8BBB7A363
+
+
+0
+4
+4
 footprints
 DIOC200X125X110
 
@@ -82106,20 +82099,6 @@ footprints
 Kailh_MX_Socket
 
 
-0
-2
-2
-footprints
-LED4-SMD-1210
-
-
-0
-4
-4
-footprints
-LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder
-LED SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-LED handsolder
 0
 2
 2
