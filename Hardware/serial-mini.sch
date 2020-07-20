@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R2
+L serial-mini:Resistor R2
 U 1 1 5D1378FB
 P 5050 7800
 F 0 "R2" H 5050 7600 45  0000 C CNN
@@ -26,7 +26,7 @@ F 4 " " H 5050 7921 60  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L serial-mini:10UF-0603-6.3V-20% C4
+L serial-mini:Capacitor C4
 U 1 1 5D138551
 P 5350 8100
 F 0 "C4" H 5458 8192 45  0000 L CNN
@@ -49,7 +49,7 @@ F 3 "" H 6000 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L serial-mini:10UF-0603-6.3V-20% C2
+L serial-mini:Capacitor C2
 U 1 1 5D14601C
 P 5600 2600
 F 0 "C2" H 5708 2692 45  0000 L CNN
@@ -61,7 +61,7 @@ F 4 "" H 5708 2566 60  0000 L CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L serial-mini:10UF-0603-6.3V-20% C1
+L serial-mini:Capacitor C1
 U 1 1 5D14A602
 P 3900 5550
 F 0 "C1" V 3750 5550 45  0000 C CNN
@@ -73,7 +73,7 @@ F 4 "" H 4008 5516 60  0000 L CNN "Field4"
 	0    1    1    0   
 $EndComp
 $Comp
-L serial-mini:10UF-0603-6.3V-20% C5
+L serial-mini:Capacitor C5
 U 1 1 5D14DA6D
 P 5900 4650
 F 0 "C5" H 5792 4658 45  0000 R CNN
@@ -92,7 +92,7 @@ Wire Wire Line
 Wire Wire Line
 	5750 4950 5750 4550
 $Comp
-L serial-mini:10UF-0603-6.3V-20% C10
+L serial-mini:Capacitor C10
 U 1 1 5D16B7DF
 P 9350 5400
 F 0 "C10" H 9242 5408 45  0000 R CNN
@@ -124,14 +124,14 @@ U 1 1 5D174C5A
 P 9950 3150
 F 0 "J1" V 9865 3728 45  0000 L CNN
 F 1 "PICKIT V3 Header" V 9949 3728 45  0000 L CNN
-F 2 "serial-mini:PICKITv3" H 9950 3850 20  0001 C CNN
+F 2 "footprints:PICKITv3" H 9950 3850 20  0001 C CNN
 F 3 "" H 9950 3150 50  0001 C CNN
 F 4 "" V 9991 3728 60  0000 L CNN "Field4"
 	1    9950 3150
 	0    1    1    0   
 $EndComp
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R8
+L serial-mini:Resistor R8
 U 1 1 5D175B3E
 P 10250 3950
 F 0 "R8" H 10250 3850 45  0000 C CNN
@@ -192,7 +192,7 @@ SWITCH_OUT_2
 Text GLabel 8300 7700 2    50   Input ~ 0
 SWITCH_OUT_3
 $Comp
-L serial-mini:10UF-0603-6.3V-20% C7
+L serial-mini:Capacitor C7
 U 1 1 5D18C5D8
 P 6000 7100
 F 0 "C7" H 6108 7192 45  0000 L CNN
@@ -204,7 +204,7 @@ F 4 "" H 6108 7066 60  0000 L CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R4
+L serial-mini:Resistor R4
 U 1 1 5D18CD99
 P 5700 7400
 F 0 "R4" H 5700 7600 45  0000 C CNN
@@ -216,7 +216,7 @@ F 4 " " H 5700 7521 60  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R3
+L serial-mini:Resistor R3
 U 1 1 5D18DF88
 P 5400 7100
 F 0 "R3" V 5305 7168 45  0000 L CNN
@@ -228,7 +228,7 @@ F 4 " " V 5484 7168 60  0000 L CNN "Field4"
 	0    1    1    0   
 $EndComp
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R1
+L serial-mini:Resistor R1
 U 1 1 5D18FA64
 P 4700 8050
 F 0 "R1" V 4605 8118 45  0000 L CNN
@@ -295,7 +295,7 @@ U 1 1 5D12EBD0
 P 4900 7400
 F 0 "S2" H 4900 7710 45  0000 C CNN
 F 1 "KAILH_HOT_SWAP" H 4900 7626 45  0000 C CNN
-F 2 "serial-mini:Kailh_MX_Socket" H 4900 7600 20  0001 C CNN
+F 2 "footprints:Kailh_MX_Socket" H 4900 7600 20  0001 C CNN
 F 3 "https://cdn.shopify.com/s/files/1/3099/8088/files/CPG151101S11_MX_Socket.pdf?4656976507916097806" H 4900 7400 50  0001 C CNN
 F 4 "CHERRY_MX" H 4900 7531 60  0000 C CNN "Field4"
 	1    4900 7400
@@ -312,7 +312,7 @@ U 1 1 5D1B292C
 P 4200 7800
 F 0 "S1" H 4200 8110 45  0000 C CNN
 F 1 "KAILH_HOT_SWAP" H 4200 8026 45  0000 C CNN
-F 2 "serial-mini:Kailh_MX_Socket" H 4200 8000 20  0001 C CNN
+F 2 "footprints:Kailh_MX_Socket" H 4200 8000 20  0001 C CNN
 F 3 "https://cdn.shopify.com/s/files/1/3099/8088/files/CPG151101S11_MX_Socket.pdf?4656976507916097806" H 4200 7800 50  0001 C CNN
 F 4 "CHERRY_MX" H 4200 7931 60  0000 C CNN "Field4"
 	1    4200 7800
@@ -335,9 +335,9 @@ F 3 "" H 8600 7500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5350 7800 6100 7800
+	5350 7800 5450 7800
 $Comp
-L serial-mini:10UF-0603-6.3V-20% C6
+L serial-mini:Capacitor C6
 U 1 1 5D14E879
 P 5900 5050
 F 0 "C6" H 5792 5058 45  0000 R CNN
@@ -522,7 +522,7 @@ U 1 1 5D12D49B
 P 7200 4900
 F 0 "U3" H 7600 6415 50  0000 C CNN
 F 1 "DSPIC33CK64MP102" H 7600 6324 50  0000 C CNN
-F 2 "serial-mini:‎DSPIC33CK32MP102" H 7200 4900 50  0001 C CNN
+F 2 "footprints:‎DSPIC33CK32MP102" H 7200 4900 50  0001 C CNN
 F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en609411" H 7200 4900 50  0001 C CNN
 	1    7200 4900
 	1    0    0    -1  
@@ -538,17 +538,6 @@ F 3 "" H 5450 2400 50  0001 C CNN
 	1    5450 2400
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR017
-U 1 1 5D539259
-P 5600 3000
-F 0 "#PWR017" H 5600 2750 50  0001 C CNN
-F 1 "GND" H 5605 2827 50  0000 C CNN
-F 2 "" H 5600 3000 50  0001 C CNN
-F 3 "" H 5600 3000 50  0001 C CNN
-	1    5600 3000
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5600 2700 5600 2800
 $Comp
@@ -563,7 +552,7 @@ F 3 "" H 7700 2500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L serial-mini:10UF-0603-6.3V-20% C12
+L serial-mini:Capacitor C12
 U 1 1 5D542C26
 P 7650 2700
 F 0 "C12" H 7758 2792 45  0000 L CNN
@@ -598,7 +587,7 @@ U 1 1 5D56F1E5
 P 6100 7400
 F 0 "U4" H 7200 7787 60  0000 C CNN
 F 1 "SN74AHC14RGYR" H 7200 7681 60  0000 C CNN
-F 2 "serial-mini:SN74AHC14RGYR" H 7200 7640 60  0001 C CNN
+F 2 "footprints:SN74AHC14RGYR" H 7200 7640 60  0001 C CNN
 F 3 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ahc14" H 6100 7400 60  0001 C CNN
 	1    6100 7400
 	1    0    0    -1  
@@ -626,10 +615,6 @@ F 3 "" H 10300 7600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	10100 7600 10300 7600
-Wire Wire Line
-	8900 7050 8900 7150
-Wire Wire Line
 	9500 7100 9500 6950
 Wire Wire Line
 	9500 7600 9700 7600
@@ -637,14 +622,14 @@ Connection ~ 9500 7600
 Wire Wire Line
 	9500 7500 9500 7600
 Wire Wire Line
-	9350 7600 9500 7600
+	9350 7600 9400 7600
 Wire Wire Line
 	8900 7600 8950 7600
 Connection ~ 8900 7600
 Wire Wire Line
 	8900 7500 8900 7600
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R6
+L serial-mini:Resistor R6
 U 1 1 5D1BFC28
 P 9500 7300
 F 0 "R6" V 9405 7368 45  0000 L CNN
@@ -656,7 +641,7 @@ F 4 " " V 9584 7368 60  0000 L CNN "Field4"
 	0    1    1    0   
 $EndComp
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R5
+L serial-mini:Resistor R5
 U 1 1 5D1BF50B
 P 9150 7600
 F 0 "R5" H 9250 7700 45  0000 C CNN
@@ -668,7 +653,7 @@ F 4 " " H 9150 7721 60  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 $Comp
-L serial-mini:10UF-0603-6.3V-20% C8
+L serial-mini:Capacitor C8
 U 1 1 5D1BEC6A
 P 8900 7400
 F 0 "C8" H 9008 7492 45  0000 L CNN
@@ -685,7 +670,7 @@ U 1 1 5D12F7C6
 P 9900 7600
 F 0 "S3" H 9900 7910 45  0000 C CNN
 F 1 "KAILH_HOT_SWAP" H 9900 7826 45  0000 C CNN
-F 2 "serial-mini:Kailh_MX_Socket" H 9900 7800 20  0001 C CNN
+F 2 "footprints:Kailh_MX_Socket" H 9900 7800 20  0001 C CNN
 F 3 "https://cdn.shopify.com/s/files/1/3099/8088/files/CPG151101S11_MX_Socket.pdf?4656976507916097806" H 9900 7600 50  0001 C CNN
 F 4 "CHERRY_MX" H 9900 7731 60  0000 C CNN "Field4"
 	1    9900 7600
@@ -696,27 +681,9 @@ Wire Wire Line
 Wire Wire Line
 	8300 7500 8600 7500
 Wire Wire Line
-	8300 7400 8300 7150
-Wire Wire Line
-	8300 7150 8900 7150
-Connection ~ 8900 7150
-Wire Wire Line
-	8900 7150 8900 7200
-Wire Wire Line
 	11200 5700 10300 5700
 Wire Wire Line
 	10800 5900 11200 5900
-$Comp
-L power:GND #PWR014
-U 1 1 5D5C1F0C
-P 10850 7100
-F 0 "#PWR014" H 10850 6850 50  0001 C CNN
-F 1 "GND" V 10855 6972 50  0000 R CNN
-F 2 "" H 10850 7100 50  0001 C CNN
-F 3 "" H 10850 7100 50  0001 C CNN
-	1    10850 7100
-	0    1    -1   0   
-$EndComp
 Wire Wire Line
 	11200 7000 11200 7100
 Wire Wire Line
@@ -725,7 +692,7 @@ Connection ~ 11200 7100
 Wire Wire Line
 	11200 7100 10850 7100
 $Comp
-L serial-mini:10UF-0603-6.3V-20% C11
+L serial-mini:Capacitor C11
 U 1 1 5D5CD585
 P 12950 7200
 F 0 "C11" V 12800 7200 45  0000 C CNN
@@ -764,7 +731,7 @@ F 3 "" H 13400 5600 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L serial-mini:10UF-0603-6.3V-20% C3
+L serial-mini:Capacitor C3
 U 1 1 5D5FFC3B
 P 12950 5300
 F 0 "C3" V 12800 5300 45  0000 C CNN
@@ -856,17 +823,6 @@ Wire Wire Line
 	3700 5850 3700 6000
 Wire Wire Line
 	1850 5350 2000 5350
-$Comp
-L power:GND #PWR0111
-U 1 1 5D16E9B5
-P 1850 5350
-F 0 "#PWR0111" H 1850 5100 50  0001 C CNN
-F 1 "GND" H 1855 5177 50  0000 C CNN
-F 2 "" H 1850 5350 50  0001 C CNN
-F 3 "" H 1850 5350 50  0001 C CNN
-	1    1850 5350
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	10300 5700 10300 6150
 Wire Wire Line
@@ -884,14 +840,14 @@ Wire Wire Line
 Wire Wire Line
 	5650 5250 5900 5250
 Wire Wire Line
-	5450 2400 5600 2400
+	5450 2400 5500 2400
 $Comp
 L serial-mini:SIT2001BI-S2-33S-100.000000D U1
 U 1 1 5D55178B
 P 2000 5350
 F 0 "U1" H 2800 5737 60  0000 C CNN
 F 1 "SIT2001BI-S2-33S-100.000000D" H 2800 5631 60  0000 C CNN
-F 2 "serial-mini:SIT2001BI-S2-33S-100.000000D" H 2800 5590 60  0001 C CNN
+F 2 "footprints:SIT2001BI-S2-33S-100.000000D" H 2800 5590 60  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/sitime/SIT2001BI-S2-33S-100.000000E/1473-SIT2001BI-S2-33S-100.000000E-ND/11292035" H 2000 5350 60  0001 C CNN
 	1    2000 5350
 	1    0    0    -1  
@@ -902,7 +858,7 @@ U 1 1 5D59F580
 P 11900 6400
 F 0 "U2" H 11900 7370 50  0000 C CNN
 F 1 "FT230XQ-R" H 11900 7279 50  0000 C CNN
-F 2 "serial-mini:FT230XQ" H 11900 6400 50  0001 L BNN
+F 2 "footprints:FT230XQ" H 11900 6400 50  0001 L BNN
 F 3 "https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT230XQ-R/768-1130-1-ND/3029158?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 11900 6400 50  0001 L BNN
 F 4 "768-1130-1-ND" H 11900 6400 50  0001 L BNN "Field4"
 F 5 "QFN-16 FTDI" H 11900 6400 50  0001 L BNN "Field5"
@@ -917,8 +873,8 @@ L serial-mini:SMD-LED-RGB(4P-0606) D4
 U 1 1 5F1A45F0
 P 12600 4000
 F 0 "D4" H 12600 3635 50  0000 C CNN
-F 1 "SMD-LED-RGB(4P-0606)" H 12600 3726 50  0001 C CNN
-F 2 "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 12600 4000 50  0001 L BNN
+F 1 "LED" H 12600 3726 50  0001 C CNN
+F 2 "footprints:CLVBA-FKA-CAEDH8BBB7A363" H 12600 4000 50  0001 L BNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616SEEZGKQBKC.pdf" H 12600 4000 50  0001 L BNN
 F 4 "" H 12600 4000 50  0001 L BNN "Field4"
 	1    12600 4000
@@ -930,7 +886,7 @@ U 1 1 5F1A8137
 P 12600 2600
 F 0 "D2" H 12600 2235 50  0000 C CNN
 F 1 "LED" H 12600 2326 50  0001 C CNN
-F 2 "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 12600 2600 50  0001 L BNN
+F 2 "footprints:CLVBA-FKA-CAEDH8BBB7A363" H 12600 2600 50  0001 L BNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616SEEZGKQBKC.pdf" H 12600 2600 50  0001 L BNN
 F 4 "" H 12600 2600 50  0001 L BNN "Field4"
 	1    12600 2600
@@ -942,7 +898,7 @@ U 1 1 5F07D53E
 P 10400 4700
 F 0 "J3" H 10928 4353 60  0000 L CNN
 F 1 "Serial Port" H 10928 4247 60  0000 L CNN
-F 2 "serial-mini:3-106505-2" H 10800 4240 60  0001 C CNN
+F 2 "footprints:3-106505-2" H 10800 4240 60  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82068_AMPLIMITE_Right-Angle_Posted_Conn&DocType=CS&DocLang=English" H 10400 4700 60  0001 C CNN
 	1    10400 4700
 	1    0    0    -1  
@@ -998,7 +954,7 @@ F 3 "" H 4750 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 5750 5350 5750
+	6200 5750 5500 5750
 Wire Wire Line
 	5350 5750 5350 6150
 $Comp
@@ -1007,19 +963,19 @@ U 1 1 5F219BEC
 P 11550 2600
 F 0 "Q1" H 11755 2600 50  0000 L CNN
 F 1 "IRLML2060" H 11100 2750 50  0000 L CNN
-F 2 "serial-mini:IRLML2060TRPBF" H 11750 2700 50  0001 C CNN
+F 2 "footprints:IRLML2060TRPBF" H 11750 2700 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 11550 2600 50  0001 C CNN
 	1    11550 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9000 5150 9850 5150
+	9000 5150 9450 5150
 Wire Wire Line
 	9850 5150 9850 4900
 Wire Wire Line
 	9850 4900 10400 4900
 Wire Wire Line
-	9000 4950 9650 4950
+	9000 4950 9450 4950
 Wire Wire Line
 	9650 4950 9650 4800
 Wire Wire Line
@@ -1042,7 +998,7 @@ Connection ~ 12900 2600
 Wire Wire Line
 	12900 2600 13050 2600
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R11
+L serial-mini:Resistor R11
 U 1 1 5F2CAB90
 P 12150 2950
 F 0 "R11" H 12150 2850 45  0001 C CNN
@@ -1067,7 +1023,7 @@ Wire Wire Line
 	12900 4000 12900 3300
 Connection ~ 12900 3300
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R9
+L serial-mini:Resistor R9
 U 1 1 5F2EC868
 P 12100 3650
 F 0 "R9" H 12100 3550 45  0001 C CNN
@@ -1093,7 +1049,7 @@ U 1 1 5F2FA02B
 P 11550 3300
 F 0 "Q2" H 11755 3300 50  0000 L CNN
 F 1 "IRLML2060" H 11200 3450 50  0000 L CNN
-F 2 "serial-mini:IRLML2060TRPBF" H 11750 3400 50  0001 C CNN
+F 2 "footprints:IRLML2060TRPBF" H 11750 3400 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 11550 3300 50  0001 C CNN
 	1    11550 3300
 	1    0    0    -1  
@@ -1101,7 +1057,7 @@ $EndComp
 Wire Wire Line
 	11750 3100 11650 3100
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R10
+L serial-mini:Resistor R10
 U 1 1 5F312013
 P 12150 2550
 F 0 "R10" H 12150 2450 45  0001 C CNN
@@ -1121,7 +1077,7 @@ Wire Wire Line
 Wire Wire Line
 	11750 2550 11750 3050
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R12
+L serial-mini:Resistor R12
 U 1 1 5F31FB62
 P 12150 3300
 F 0 "R12" H 12150 3200 45  0001 C CNN
@@ -1147,14 +1103,14 @@ U 1 1 5F1975B3
 P 12600 3300
 F 0 "D3" H 12600 2935 50  0000 C CNN
 F 1 "LED" H 12600 3026 50  0001 C CNN
-F 2 "LED_SMD:LED_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 12600 3300 50  0001 L BNN
+F 2 "footprints:CLVBA-FKA-CAEDH8BBB7A363" H 12600 3300 50  0001 L BNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616SEEZGKQBKC.pdf" H 12600 3300 50  0001 L BNN
 F 4 "" H 12600 3300 50  0001 L BNN "Field4"
 	1    12600 3300
 	-1   0    0    1   
 $EndComp
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R14
+L serial-mini:Resistor R14
 U 1 1 5F3306F1
 P 12150 4000
 F 0 "R14" H 12150 3900 45  0001 C CNN
@@ -1173,7 +1129,7 @@ Connection ~ 11750 3100
 Wire Wire Line
 	11750 3100 11750 4000
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R16
+L serial-mini:Resistor R16
 U 1 1 5F346C83
 P 12200 4300
 F 0 "R16" H 12200 4200 45  0001 C CNN
@@ -1187,7 +1143,7 @@ $EndComp
 Wire Wire Line
 	12400 4100 12400 4300
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R13
+L serial-mini:Resistor R13
 U 1 1 5F34E631
 P 12150 3450
 F 0 "R13" H 12150 3350 45  0001 C CNN
@@ -1203,7 +1159,7 @@ Wire Wire Line
 Wire Wire Line
 	12400 3450 12350 3450
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R15
+L serial-mini:Resistor R15
 U 1 1 5F357E6E
 P 12200 2700
 F 0 "R15" H 12200 2600 45  0001 C CNN
@@ -1227,19 +1183,19 @@ Wire Wire Line
 	12000 4300 12000 3800
 Connection ~ 12000 3800
 Wire Wire Line
-	9000 4150 11150 4150
+	9000 4150 9250 4150
 Wire Wire Line
 	11150 4150 11150 2600
 Wire Wire Line
 	11150 2600 11350 2600
 Wire Wire Line
-	9000 4350 11250 4350
+	9000 4350 9250 4350
 Wire Wire Line
 	11250 4350 11250 3300
 Wire Wire Line
 	11250 3300 11350 3300
 Wire Wire Line
-	9000 4550 11350 4550
+	9000 4550 9250 4550
 Wire Wire Line
 	11350 4550 11350 4000
 $Comp
@@ -1287,7 +1243,7 @@ F 3 "" H 13050 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L serial-mini-rescue:RESISTOR0603-serial-mini R7
+L serial-mini:Resistor R7
 U 1 1 5F2A10BE
 P 12050 2150
 F 0 "R7" H 12050 2050 45  0001 C CNN
@@ -1327,7 +1283,7 @@ Wire Wire Line
 Wire Wire Line
 	2000 5850 2000 5550
 Wire Wire Line
-	3600 5350 6200 5350
+	3600 5350 4500 5350
 Wire Wire Line
 	3600 5550 3700 5550
 Connection ~ 9350 5600
@@ -1353,14 +1309,14 @@ Wire Wire Line
 	5850 2500 5850 2400
 Connection ~ 5600 2400
 Wire Wire Line
-	5600 2400 5850 2400
+	5600 2400 5700 2400
 $Comp
 L serial-mini:10118193-0001LF J2
 U 1 1 5D4D8C06
 P 13950 5850
 F 0 "J2" H 13842 5285 50  0000 C CNN
 F 1 "USB Micro B" H 13842 5376 50  0000 C CNN
-F 2 "serial-mini:FCI_10118193-0001LF" H 13950 5850 50  0001 L BNN
+F 2 "footprints:FCI_10118193-0001LF" H 13950 5850 50  0001 L BNN
 F 3 "https://www.digikey.com/product-detail/en/amphenol-icc-fci/10118193-0001LF/609-4616-1-ND/2785380?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 13950 5850 50  0001 L BNN
 F 4 "None" H 13950 5850 50  0001 L BNN "Field4"
 F 5 "" H 13950 5850 50  0001 L BNN "Field5"
@@ -1381,7 +1337,7 @@ U 1 1 5F1A3874
 P 9300 3200
 F 0 "R19" H 9300 3407 50  0000 C CNN
 F 1 "3352T-1-103LF" H 9300 3316 50  0000 C CNN
-F 2 "serial-mini:TRIM_3352T-1-103LF" H 9300 3200 50  0001 L BNN
+F 2 "footprints:TRIM_3352T-1-103LF" H 9300 3200 50  0001 L BNN
 F 3 "4.32 mm" H 9300 3200 50  0001 L BNN
 F 4 "Bourns" H 9300 3200 50  0001 L BNN "Field4"
 F 5 "08/19" H 9300 3200 50  0001 L BNN "Field5"
@@ -1395,7 +1351,7 @@ U 1 1 5F1C24E5
 P 4750 6150
 F 0 "R18" V 4796 6220 50  0000 L CNN
 F 1 "3352T-1-103LF" V 4705 6220 50  0000 L CNN
-F 2 "serial-mini:TRIM_3352T-1-103LF" H 4750 6150 50  0001 L BNN
+F 2 "footprints:TRIM_3352T-1-103LF" H 4750 6150 50  0001 L BNN
 F 3 "4.32 mm" H 4750 6150 50  0001 L BNN
 F 4 "Bourns" H 4750 6150 50  0001 L BNN "Field4"
 F 5 "08/19" H 4750 6150 50  0001 L BNN "Field5"
@@ -1406,32 +1362,26 @@ $EndComp
 Wire Wire Line
 	5350 6150 4950 6150
 $Comp
-L serial-mini:MIC5504-3.3YM5-TR U?
+L serial-mini:MIC5504-3.3YM5-TR U5
 U 1 1 5F15D4B5
 P 5850 2500
-F 0 "U?" H 6650 2887 60  0000 C CNN
+F 0 "U5" H 6650 2887 60  0000 C CNN
 F 1 "MIC5504-3.3YM5-TR" H 6650 2781 60  0000 C CNN
-F 2 "SOT-23-5_MC_MCH" H 6650 2740 60  0001 C CNN
+F 2 "footprints:MIC5504" H 6650 2740 60  0001 C CNN
 F 3 "https://www.digikey.com/product-detail/en/microchip-technology/MIC5504-3.3YMT-TZ/576-4310-1-ND/3879201?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 6650 2781 60  0001 C CNN
 	1    5850 2500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5850 2600 5850 2800
-Wire Wire Line
-	5850 2800 5600 2800
 Connection ~ 5600 2800
 Wire Wire Line
-	5600 2800 5600 3000
-Wire Wire Line
 	7650 2800 7650 3050
-Wire Wire Line
-	7450 2500 7650 2500
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR026
 U 1 1 5F2015BE
 P 7450 2850
-F 0 "#PWR?" H 7450 2700 50  0001 C CNN
+F 0 "#PWR026" H 7450 2700 50  0001 C CNN
 F 1 "+5V" H 7465 3023 50  0000 C CNN
 F 2 "" H 7450 2850 50  0001 C CNN
 F 3 "" H 7450 2850 50  0001 C CNN
@@ -1441,10 +1391,10 @@ $EndComp
 Wire Wire Line
 	7450 2850 7450 2700
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR015
 U 1 1 5F297A7B
 P 4550 3750
-F 0 "#PWR?" H 4550 3600 50  0001 C CNN
+F 0 "#PWR015" H 4550 3600 50  0001 C CNN
 F 1 "+5V" H 4565 3923 50  0000 C CNN
 F 2 "" H 4550 3750 50  0001 C CNN
 F 3 "" H 4550 3750 50  0001 C CNN
@@ -1464,7 +1414,7 @@ U 1 1 5F302B1F
 P 11550 4000
 F 0 "Q3" H 11755 4000 50  0000 L CNN
 F 1 "IRLML2060" H 11050 3900 50  0000 L CNN
-F 2 "serial-mini:IRLML2060TRPBF" H 11750 4100 50  0001 C CNN
+F 2 "footprints:IRLML2060TRPBF" H 11750 4100 50  0001 C CNN
 F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535664b7fb25ee" H 11550 4000 50  0001 C CNN
 	1    11550 4000
 	1    0    0    -1  
@@ -1474,12 +1424,12 @@ PWM-Hue
 Text Label 9300 3500 2    50   ~ 0
 PWM-Brightness
 $Comp
-L serial-mini:VAOL-S8WR4 CR?
+L serial-mini:VAOL-S8WR4 D5
 U 1 1 5F2EDA7B
 P 5400 3750
-F 0 "CR?" H 5600 4138 60  0000 C CNN
+F 0 "D5" H 5600 4138 60  0000 C CNN
 F 1 "VAOL-S8WR4" H 5600 4032 60  0000 C CNN
-F 2 "LED_VCCLITE_0805_VCC" H 5600 3390 60  0001 C CNN
+F 2 "footprints:VAOL-S8WR4" H 5600 3390 60  0001 C CNN
 F 3 "http://vcclite.com/_pdf/VAOL-S8WR4-LED-0805-white.pdf" H 5600 4032 60  0001 C CNN
 	1    5400 3750
 	1    0    0    -1  
@@ -1487,10 +1437,10 @@ $EndComp
 Wire Wire Line
 	10800 5900 10800 6350
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR027
 U 1 1 5F31F39B
 P 10050 6500
-F 0 "#PWR?" H 10050 6350 50  0001 C CNN
+F 0 "#PWR027" H 10050 6350 50  0001 C CNN
 F 1 "+5V" H 10065 6673 50  0000 C CNN
 F 2 "" H 10050 6500 50  0001 C CNN
 F 3 "" H 10050 6500 50  0001 C CNN
@@ -1498,37 +1448,37 @@ F 3 "" H 10050 6500 50  0001 C CNN
 	0    -1   1    0   
 $EndComp
 $Comp
-L serial-mini:LTST-C171KSKT D?
+L serial-mini:LTST-C171KSKT D1
 U 1 1 5F344729
 P 10700 6500
-F 0 "D?" H 10750 6283 50  0000 C CNN
+F 0 "D1" H 10750 6283 50  0000 C CNN
 F 1 "LTST-C171KSKT" H 10750 6374 50  0000 C CNN
-F 2 "DIOC200X125X110" H 10700 6500 50  0001 L BNN
+F 2 "footprints:DIOC200X125X110" H 10700 6500 50  0001 L BNN
 F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KSKT.pdf" H 10700 6500 50  0001 L BNN
 	1    10700 6500
 	-1   0    0    1   
 $EndComp
 $Comp
-L serial-mini:RESISTOR0603-serial-mini R?
+L serial-mini:RESISTOR0603-serial-mini R20
 U 1 1 5F34B1D0
 P 10300 6500
-F 0 "R?" H 10300 6350 45  0000 C CNN
+F 0 "R20" H 10300 6350 45  0000 C CNN
 F 1 "150" H 10300 6250 45  0000 C CNN
-F 2 "0603" H 10300 6650 20  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10300 6650 20  0001 C CNN
 F 3 "" H 10300 6500 60  0001 C CNN
 F 4 " " H 10300 6621 60  0000 C CNN "Field4"
 	1    10300 6500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 3750 6200 3750
+	5800 3750 5850 3750
 $Comp
-L serial-mini:RESISTOR0603-serial-mini R?
+L serial-mini:RESISTOR0603-serial-mini R17
 U 1 1 5F3D4344
 P 5050 3750
-F 0 "R?" H 5050 4050 45  0000 C CNN
+F 0 "R17" H 5050 4050 45  0000 C CNN
 F 1 "133" H 5050 3966 45  0000 C CNN
-F 2 "0603" H 5050 3900 20  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5050 3900 20  0001 C CNN
 F 3 "" H 5050 3750 60  0001 C CNN
 F 4 " " H 5050 3871 60  0000 C CNN "Field4"
 	1    5050 3750
@@ -1541,7 +1491,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 6500 10100 6500
 Wire Wire Line
-	10800 6500 11200 6500
+	10800 6500 10850 6500
 Text Label 10800 6500 0    50   ~ 0
 3V@20mA
 Text Label 5850 3750 0    50   ~ 0
@@ -1556,4 +1506,335 @@ Text Label 9200 4950 0    50   ~ 0
 RX
 Text Label 9200 5150 0    50   ~ 0
 TX
+$Comp
+L Connector:TestPoint TP-5V
+U 1 1 5F5E1403
+P 5700 2400
+F 0 "TP-5V" H 5758 2518 50  0000 L CNN
+F 1 "TestPoint" H 5758 2427 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5900 2400 50  0001 C CNN
+F 3 "~" H 5900 2400 50  0001 C CNN
+	1    5700 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 5700 2400
+Wire Wire Line
+	5700 2400 5850 2400
+Wire Wire Line
+	7450 2500 7650 2500
+$Comp
+L Connector:TestPoint TP-3.3V
+U 1 1 5F5FBCAA
+P 7450 2500
+F 0 "TP-3.3V" H 7508 2618 50  0000 L CNN
+F 1 "TestPoint" H 7508 2527 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7650 2500 50  0001 C CNN
+F 3 "~" H 7650 2500 50  0001 C CNN
+	1    7450 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP18
+U 1 1 5F601CC4
+P 11650 3800
+F 0 "TP18" V 11845 3872 50  0000 C CNN
+F 1 "TestPoint" V 11754 3872 50  0000 C CNN
+F 2 "" H 11850 3800 50  0001 C CNN
+F 3 "~" H 11850 3800 50  0001 C CNN
+	1    11650 3800
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11650 3800
+$Comp
+L Connector:TestPoint TP17
+U 1 1 5F6106D0
+P 11650 3100
+F 0 "TP17" V 11845 3172 50  0000 C CNN
+F 1 "TestPoint" V 11754 3172 50  0000 C CNN
+F 2 "" H 11850 3100 50  0001 C CNN
+F 3 "~" H 11850 3100 50  0001 C CNN
+	1    11650 3100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11650 3100
+$Comp
+L Connector:TestPoint TP16
+U 1 1 5F6111EA
+P 11650 2150
+F 0 "TP16" V 11845 2222 50  0000 C CNN
+F 1 "TestPoint" V 11754 2222 50  0000 C CNN
+F 2 "" H 11850 2150 50  0001 C CNN
+F 3 "~" H 11850 2150 50  0001 C CNN
+	1    11650 2150
+	0    -1   -1   0   
+$EndComp
+Connection ~ 11650 2150
+$Comp
+L Connector:TestPoint TP10
+U 1 1 5F618028
+P 9250 4550
+F 0 "TP10" H 9192 4576 50  0000 R CNN
+F 1 "TestPoint" H 9192 4667 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9450 4550 50  0001 C CNN
+F 3 "~" H 9450 4550 50  0001 C CNN
+	1    9250 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP9
+U 1 1 5F618F1D
+P 9250 4350
+F 0 "TP9" H 9192 4376 50  0000 R CNN
+F 1 "TestPoint" H 9192 4467 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9450 4350 50  0001 C CNN
+F 3 "~" H 9450 4350 50  0001 C CNN
+	1    9250 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP8
+U 1 1 5F6195B4
+P 9250 4150
+F 0 "TP8" H 9192 4176 50  0000 R CNN
+F 1 "TestPoint" H 9192 4267 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9450 4150 50  0001 C CNN
+F 3 "~" H 9450 4150 50  0001 C CNN
+	1    9250 4150
+	-1   0    0    1   
+$EndComp
+Connection ~ 9250 4150
+Wire Wire Line
+	9250 4150 11150 4150
+Connection ~ 9250 4350
+Connection ~ 9250 4550
+Wire Wire Line
+	9250 4550 11350 4550
+Wire Wire Line
+	9250 4350 11250 4350
+$Comp
+L Connector:TestPoint TP2
+U 1 1 5F64A959
+P 5100 7400
+F 0 "TP2" H 5042 7426 50  0000 R CNN
+F 1 "TestPoint" H 5042 7517 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5300 7400 50  0001 C CNN
+F 3 "~" H 5300 7400 50  0001 C CNN
+	1    5100 7400
+	-1   0    0    1   
+$EndComp
+Connection ~ 5100 7400
+$Comp
+L Connector:TestPoint TP3
+U 1 1 5F651F4F
+P 5450 7800
+F 0 "TP3" H 5508 7918 50  0000 L CNN
+F 1 "TestPoint" H 5508 7827 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5650 7800 50  0001 C CNN
+F 3 "~" H 5650 7800 50  0001 C CNN
+	1    5450 7800
+	1    0    0    -1  
+$EndComp
+Connection ~ 5450 7800
+Wire Wire Line
+	5450 7800 6100 7800
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5F652E6A
+P 9400 7600
+F 0 "TP12" H 9342 7626 50  0000 R CNN
+F 1 "TestPoint" H 9342 7717 50  0000 R CNN
+F 2 "" H 9600 7600 50  0001 C CNN
+F 3 "~" H 9600 7600 50  0001 C CNN
+	1    9400 7600
+	-1   0    0    1   
+$EndComp
+Connection ~ 9400 7600
+Wire Wire Line
+	9400 7600 9500 7600
+$Comp
+L Connector:TestPoint TP15
+U 1 1 5F67FB39
+P 10850 6500
+F 0 "TP15" H 10792 6526 50  0000 R CNN
+F 1 "TestPoint" H 10792 6617 50  0000 R CNN
+F 2 "" H 11050 6500 50  0001 C CNN
+F 3 "~" H 11050 6500 50  0001 C CNN
+	1    10850 6500
+	-1   0    0    1   
+$EndComp
+Connection ~ 10850 6500
+Wire Wire Line
+	10850 6500 11200 6500
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5F68536D
+P 5850 3750
+F 0 "TP6" H 5792 3776 50  0000 R CNN
+F 1 "TestPoint" H 5792 3867 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6050 3750 50  0001 C CNN
+F 3 "~" H 6050 3750 50  0001 C CNN
+	1    5850 3750
+	-1   0    0    1   
+$EndComp
+Connection ~ 5850 3750
+Wire Wire Line
+	5850 3750 6200 3750
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5F692C6C
+P 4500 5350
+F 0 "TP1" H 4558 5468 50  0000 L CNN
+F 1 "TestPoint" H 4558 5377 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4700 5350 50  0001 C CNN
+F 3 "~" H 4700 5350 50  0001 C CNN
+	1    4500 5350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 5350
+Wire Wire Line
+	4500 5350 6200 5350
+$Comp
+L Connector:TestPoint TP4
+U 1 1 5F693E2D
+P 5500 5750
+F 0 "TP4" H 5558 5868 50  0000 L CNN
+F 1 "TestPoint" H 5558 5777 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5700 5750 50  0001 C CNN
+F 3 "~" H 5700 5750 50  0001 C CNN
+	1    5500 5750
+	1    0    0    -1  
+$EndComp
+Connection ~ 5500 5750
+Wire Wire Line
+	5500 5750 5350 5750
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5F69468A
+P 9300 3750
+F 0 "TP11" V 9254 3938 50  0000 L CNN
+F 1 "TestPoint" V 9345 3938 50  0000 L CNN
+F 2 "" H 9500 3750 50  0001 C CNN
+F 3 "~" H 9500 3750 50  0001 C CNN
+	1    9300 3750
+	0    1    1    0   
+$EndComp
+Connection ~ 9300 3750
+$Comp
+L Connector:TestPoint TP13
+U 1 1 5F6A2683
+P 9450 4950
+F 0 "TP13" H 9508 5068 50  0000 L CNN
+F 1 "TestPoint" H 9508 4977 50  0000 L CNN
+F 2 "" H 9650 4950 50  0001 C CNN
+F 3 "~" H 9650 4950 50  0001 C CNN
+	1    9450 4950
+	1    0    0    -1  
+$EndComp
+Connection ~ 9450 4950
+Wire Wire Line
+	9450 4950 9650 4950
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5F6A3279
+P 9450 5150
+F 0 "TP14" H 9508 5268 50  0000 L CNN
+F 1 "TestPoint" H 9508 5177 50  0000 L CNN
+F 2 "" H 9650 5150 50  0001 C CNN
+F 3 "~" H 9650 5150 50  0001 C CNN
+	1    9450 5150
+	1    0    0    -1  
+$EndComp
+Connection ~ 9450 5150
+Wire Wire Line
+	9450 5150 9850 5150
+Connection ~ 7450 2500
+Wire Wire Line
+	10100 7600 10300 7600
+Wire Wire Line
+	8900 7050 8900 7200
+NoConn ~ 8300 7400
+Wire Wire Line
+	5300 3000 5300 2900
+Wire Wire Line
+	5300 2800 5600 2800
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5F7469C5
+P 5500 2150
+F 0 "#FLG0101" H 5500 2225 50  0001 C CNN
+F 1 "PWR_FLAG" H 5500 2323 50  0000 C CNN
+F 2 "" H 5500 2150 50  0001 C CNN
+F 3 "~" H 5500 2150 50  0001 C CNN
+	1    5500 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 2150 5500 2400
+Connection ~ 5500 2400
+Wire Wire Line
+	5500 2400 5600 2400
+NoConn ~ 6200 3950
+NoConn ~ 6200 4150
+$Comp
+L power:GND #PWR0115
+U 1 1 5F7CF089
+P 10850 7100
+F 0 "#PWR0115" H 10850 6850 50  0001 C CNN
+F 1 "GND" H 10855 6927 50  0000 C CNN
+F 2 "" H 10850 7100 50  0001 C CNN
+F 3 "" H 10850 7100 50  0001 C CNN
+	1    10850 7100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5F7D7920
+P 1850 5350
+F 0 "#PWR0111" H 1850 5100 50  0001 C CNN
+F 1 "GND" H 1855 5177 50  0000 C CNN
+F 2 "" H 1850 5350 50  0001 C CNN
+F 3 "" H 1850 5350 50  0001 C CNN
+	1    1850 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 2800 5600 2800
+Wire Wire Line
+	5600 2800 5600 3000
+$Comp
+L power:GND #PWR017
+U 1 1 5D539259
+P 5600 3000
+F 0 "#PWR017" H 5600 2750 50  0001 C CNN
+F 1 "GND" H 5605 2827 50  0000 C CNN
+F 2 "" H 5600 3000 50  0001 C CNN
+F 3 "" H 5600 3000 50  0001 C CNN
+	1    5600 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5F7ECE8D
+P 5300 3000
+F 0 "#FLG0102" H 5300 3075 50  0001 C CNN
+F 1 "PWR_FLAG" H 5300 3173 50  0000 C CNN
+F 2 "" H 5300 3000 50  0001 C CNN
+F 3 "~" H 5300 3000 50  0001 C CNN
+	1    5300 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP-GND
+U 1 1 5F8BEC1A
+P 5300 2900
+F 0 "TP-GND" H 5358 3018 50  0000 L CNN
+F 1 "TestPoint" H 5358 2927 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5500 2900 50  0001 C CNN
+F 3 "~" H 5500 2900 50  0001 C CNN
+	1    5300 2900
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5300 2900
+Wire Wire Line
+	5300 2900 5300 2800
 $EndSCHEMATC
