@@ -1209,7 +1209,6 @@ Connection ~ 12600 7200
 Wire Wire Line
 	12600 6800 12600 6500
 Connection ~ 12600 6800
-NoConn ~ 9000 4750
 NoConn ~ 3100 4300
 NoConn ~ 3100 4000
 NoConn ~ 3100 3900
@@ -1342,12 +1341,12 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR015
 U 1 1 5F297A7B
-P 4550 3750
-F 0 "#PWR015" H 4550 3600 50  0001 C CNN
-F 1 "+5V" H 4565 3923 50  0000 C CNN
-F 2 "" H 4550 3750 50  0001 C CNN
-F 3 "" H 4550 3750 50  0001 C CNN
-	1    4550 3750
+P 4050 3700
+F 0 "#PWR015" H 4050 3550 50  0001 C CNN
+F 1 "+5V" H 4065 3873 50  0000 C CNN
+F 2 "" H 4050 3700 50  0001 C CNN
+F 3 "" H 4050 3700 50  0001 C CNN
+	1    4050 3700
 	0    -1   -1   0   
 $EndComp
 Text Label 11650 2350 2    50   ~ 0
@@ -1374,12 +1373,12 @@ PWM-Brightness
 $Comp
 L serial-mini:VAOL-S8WR4 D5
 U 1 1 5F2EDA7B
-P 5400 3750
-F 0 "D5" H 5600 4138 60  0000 C CNN
-F 1 "VAOL-S8WR4" H 5600 4032 60  0000 C CNN
-F 2 "footprints:VAOL-S8WR4" H 5600 3390 60  0001 C CNN
-F 3 "http://vcclite.com/_pdf/VAOL-S8WR4-LED-0805-white.pdf" H 5600 4032 60  0001 C CNN
-	1    5400 3750
+P 4900 3700
+F 0 "D5" H 5100 4088 60  0000 C CNN
+F 1 "VAOL-S8WR4" H 5100 3982 60  0000 C CNN
+F 2 "footprints:VAOL-S8WR4" H 5100 3340 60  0001 C CNN
+F 3 "http://vcclite.com/_pdf/VAOL-S8WR4-LED-0805-white.pdf" H 5100 3982 60  0001 C CNN
+	1    4900 3700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1417,30 +1416,30 @@ F 4 " " H 10300 6621 60  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5800 3750 5850 3750
+	5300 3700 5350 3700
 $Comp
 L serial-mini-rescue:RESISTOR0603-serial-mini-serial-mini R17
 U 1 1 5F3D4344
-P 5050 3750
-F 0 "R17" H 5050 4050 45  0000 C CNN
-F 1 "133" H 5050 3966 45  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5050 3900 20  0001 C CNN
-F 3 "" H 5050 3750 60  0001 C CNN
-F 4 " " H 5050 3871 60  0000 C CNN "Field4"
-	1    5050 3750
+P 4550 3700
+F 0 "R17" H 4550 4000 45  0000 C CNN
+F 1 "133" H 4550 3916 45  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4550 3850 20  0001 C CNN
+F 3 "" H 4550 3700 60  0001 C CNN
+F 4 " " H 4550 3821 60  0000 C CNN "Field4"
+	1    4550 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5250 3750 5400 3750
+	4750 3700 4900 3700
 Wire Wire Line
-	4850 3750 4550 3750
+	4350 3700 4050 3700
 Wire Wire Line
 	10050 6500 10100 6500
 Wire Wire Line
 	10800 6500 10850 6500
 Text Label 10800 6500 0    50   ~ 0
 3V@20mA
-Text Label 5850 3750 0    50   ~ 0
+Text Label 5350 3700 0    50   ~ 0
 2V@15mA
 $Comp
 L Connector:TestPoint TP-5V1
@@ -1562,17 +1561,14 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP6
 U 1 1 5F68536D
-P 5850 3750
-F 0 "TP6" H 5792 3776 50  0000 R CNN
-F 1 "TestPoint" H 5792 3867 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6050 3750 50  0001 C CNN
-F 3 "~" H 6050 3750 50  0001 C CNN
-	1    5850 3750
+P 5350 3700
+F 0 "TP6" H 5292 3726 50  0000 R CNN
+F 1 "TestPoint" H 5292 3817 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5550 3700 50  0001 C CNN
+F 3 "~" H 5550 3700 50  0001 C CNN
+	1    5350 3700
 	-1   0    0    1   
 $EndComp
-Connection ~ 5850 3750
-Wire Wire Line
-	5850 3750 6200 3750
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5F692C6C
@@ -1792,4 +1788,9 @@ NoConn ~ 9000 4950
 NoConn ~ 5600 7400
 NoConn ~ 4050 4700
 NoConn ~ 7550 3200
+Text GLabel 9000 4750 2    50   Input ~ 0
+Status
+Text GLabel 5350 3700 2    50   Input ~ 0
+Status
+NoConn ~ 6200 3750
 $EndSCHEMATC
