@@ -179,17 +179,11 @@ Text GLabel 9000 5950 2    50   Input ~ 0
 PGD
 Text GLabel 9000 5750 2    50   Input ~ 0
 PGC
-Text GLabel 6200 5950 0    50   Input ~ 0
-SWITCH_OUT_1
-Text GLabel 6200 6150 0    50   Input ~ 0
-SWITCH_OUT_2
-Text GLabel 6200 6350 0    50   Input ~ 0
-SWITCH_OUT_3
 Text GLabel 6100 7500 0    50   Input ~ 0
 SWITCH_OUT_1
 Text GLabel 6100 7900 0    50   Input ~ 0
 SWITCH_OUT_2
-Text GLabel 8300 7700 2    50   Input ~ 0
+Text GLabel 9850 8400 0    50   Input ~ 0
 SWITCH_OUT_3
 $Comp
 L serial-mini:Capacitor C7
@@ -517,17 +511,6 @@ F 3 "~" H 3850 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L serial-mini:DSPIC33CK64MP102 U3
-U 1 1 5D12D49B
-P 7200 4900
-F 0 "U3" H 7600 6415 50  0000 C CNN
-F 1 "DSPIC33CK64MP102" H 7600 6324 50  0000 C CNN
-F 2 "footprints:‎DSPIC33CK32MP102" H 7200 4900 50  0001 C CNN
-F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en609411" H 7200 4900 50  0001 C CNN
-	1    7200 4900
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR016
 U 1 1 5D531D3A
 P 5450 2400
@@ -681,10 +664,6 @@ Wire Wire Line
 Wire Wire Line
 	8300 7500 8600 7500
 Wire Wire Line
-	11200 5700 10300 5700
-Wire Wire Line
-	10800 5900 11200 5900
-Wire Wire Line
 	11200 7000 11200 7100
 Wire Wire Line
 	11200 7200 11200 7100
@@ -824,12 +803,6 @@ Wire Wire Line
 Wire Wire Line
 	1850 5350 2000 5350
 Wire Wire Line
-	10300 5700 10300 6150
-Wire Wire Line
-	10300 6150 9000 6150
-Wire Wire Line
-	9000 6350 10800 6350
-Wire Wire Line
 	5750 4550 5900 4550
 Wire Wire Line
 	5650 4850 5900 4850
@@ -895,13 +868,13 @@ $EndComp
 $Comp
 L serial-mini:3-106505-2 J3
 U 1 1 5F07D53E
-P 10400 4700
-F 0 "J3" H 10928 4353 60  0000 L CNN
-F 1 "Serial Port" H 10928 4247 60  0000 L CNN
-F 2 "footprints:3-106505-2" H 10800 4240 60  0001 C CNN
-F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82068_AMPLIMITE_Right-Angle_Posted_Conn&DocType=CS&DocLang=English" H 10400 4700 60  0001 C CNN
-	1    10400 4700
-	1    0    0    -1  
+P 3100 4300
+F 0 "J3" H 3628 3953 60  0000 L CNN
+F 1 "Serial Port" H 3628 3847 60  0000 L CNN
+F 2 "footprints:3-106505-2" H 3500 3840 60  0001 C CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82068_AMPLIMITE_Right-Angle_Posted_Conn&DocType=CS&DocLang=English" H 3100 4300 60  0001 C CNN
+	1    3100 4300
+	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	9000 3950 9950 3950
@@ -934,29 +907,25 @@ $EndComp
 $Comp
 L power:GND #PWR012
 U 1 1 5F1B8C99
-P 4750 6450
-F 0 "#PWR012" H 4750 6200 50  0001 C CNN
-F 1 "GND" V 4755 6322 50  0000 R CNN
-F 2 "" H 4750 6450 50  0001 C CNN
-F 3 "" H 4750 6450 50  0001 C CNN
-	1    4750 6450
-	1    0    0    -1  
+P 10350 4650
+F 0 "#PWR012" H 10350 4400 50  0001 C CNN
+F 1 "GND" V 10355 4522 50  0000 R CNN
+F 2 "" H 10350 4650 50  0001 C CNN
+F 3 "" H 10350 4650 50  0001 C CNN
+	1    10350 4650
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+3V3 #PWR010
 U 1 1 5F1C06B4
-P 4750 5850
-F 0 "#PWR010" H 4750 5700 50  0001 C CNN
-F 1 "+3V3" V 4765 5978 50  0000 L CNN
-F 2 "" H 4750 5850 50  0001 C CNN
-F 3 "" H 4750 5850 50  0001 C CNN
-	1    4750 5850
-	1    0    0    -1  
+P 10350 5250
+F 0 "#PWR010" H 10350 5100 50  0001 C CNN
+F 1 "+3V3" V 10365 5378 50  0000 L CNN
+F 2 "" H 10350 5250 50  0001 C CNN
+F 3 "" H 10350 5250 50  0001 C CNN
+	1    10350 5250
+	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	6200 5750 5500 5750
-Wire Wire Line
-	5350 5750 5350 6150
 $Comp
 L Device:Q_NMOS_GDS Q1
 U 1 1 5F219BEC
@@ -968,18 +937,6 @@ F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535
 	1    11550 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9000 5150 9450 5150
-Wire Wire Line
-	9850 5150 9850 4900
-Wire Wire Line
-	9850 4900 10400 4900
-Wire Wire Line
-	9000 4950 9450 4950
-Wire Wire Line
-	9650 4950 9650 4800
-Wire Wire Line
-	9650 4800 10400 4800
 Wire Wire Line
 	12400 2150 12250 2150
 Wire Wire Line
@@ -1183,19 +1140,11 @@ Wire Wire Line
 	12000 4300 12000 3800
 Connection ~ 12000 3800
 Wire Wire Line
-	9000 4150 9250 4150
-Wire Wire Line
-	11150 4150 11150 2600
-Wire Wire Line
 	11150 2600 11350 2600
-Wire Wire Line
-	9000 4350 9250 4350
 Wire Wire Line
 	11250 4350 11250 3300
 Wire Wire Line
 	11250 3300 11350 3300
-Wire Wire Line
-	9000 4550 9250 4550
 Wire Wire Line
 	11350 4550 11350 4000
 $Comp
@@ -1261,13 +1210,13 @@ Wire Wire Line
 	12600 6800 12600 6500
 Connection ~ 12600 6800
 NoConn ~ 9000 4750
-NoConn ~ 10400 4700
-NoConn ~ 10400 5000
-NoConn ~ 10400 5100
-NoConn ~ 10400 5200
-NoConn ~ 10400 5300
-NoConn ~ 10400 5400
-NoConn ~ 10400 5500
+NoConn ~ 3100 4300
+NoConn ~ 3100 4000
+NoConn ~ 3100 3900
+NoConn ~ 3100 3800
+NoConn ~ 3100 3700
+NoConn ~ 3100 3600
+NoConn ~ 3100 3500
 Connection ~ 5900 5250
 Wire Wire Line
 	5900 5250 6200 5250
@@ -1348,19 +1297,19 @@ $EndComp
 $Comp
 L serial-mini:3352T-1-103LF R18
 U 1 1 5F1C24E5
-P 4750 6150
-F 0 "R18" V 4796 6220 50  0000 L CNN
-F 1 "3352T-1-103LF" V 4705 6220 50  0000 L CNN
-F 2 "footprints:TRIM_3352T-1-103LF" H 4750 6150 50  0001 L BNN
-F 3 "4.32 mm" H 4750 6150 50  0001 L BNN
-F 4 "Bourns" H 4750 6150 50  0001 L BNN "Field4"
-F 5 "08/19" H 4750 6150 50  0001 L BNN "Field5"
-F 6 "IPC-7351B" H 4750 6150 50  0001 L BNN "Field6"
-	1    4750 6150
-	0    -1   -1   0   
+P 10350 4950
+F 0 "R18" V 10396 5020 50  0000 L CNN
+F 1 "3352T-1-103LF" V 10305 5020 50  0000 L CNN
+F 2 "footprints:TRIM_3352T-1-103LF" H 10350 4950 50  0001 L BNN
+F 3 "4.32 mm" H 10350 4950 50  0001 L BNN
+F 4 "Bourns" H 10350 4950 50  0001 L BNN "Field4"
+F 5 "08/19" H 10350 4950 50  0001 L BNN "Field5"
+F 6 "IPC-7351B" H 10350 4950 50  0001 L BNN "Field6"
+	1    10350 4950
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5350 6150 4950 6150
+	9750 4950 10150 4950
 $Comp
 L serial-mini:MIC5504-3.3YM5-TR U5
 U 1 1 5F15D4B5
@@ -1401,7 +1350,6 @@ F 3 "" H 4550 3750 50  0001 C CNN
 	1    4550 3750
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 6200 5550
 Text Label 11650 2350 2    50   ~ 0
 1.7V@69mA
 Text Label 11750 3100 2    50   ~ 0
@@ -1419,7 +1367,7 @@ F 3 "https://www.infineon.com/dgdl/irlml2060pbf.pdf?fileId=5546d462533600a401535
 	1    11550 4000
 	1    0    0    -1  
 $EndComp
-Text Label 5350 5750 2    50   ~ 0
+Text Label 9150 5150 0    50   ~ 0
 PWM-Hue
 Text Label 9300 3500 2    50   ~ 0
 PWM-Brightness
@@ -1434,8 +1382,6 @@ F 3 "http://vcclite.com/_pdf/VAOL-S8WR4-LED-0805-white.pdf" H 5600 4032 60  0001
 	1    5400 3750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10800 5900 10800 6350
 $Comp
 L power:+5V #PWR027
 U 1 1 5F31F39B
@@ -1459,7 +1405,7 @@ F 3 "http://optoelectronics.liteon.com/upload/download/DS22-2000-110/LTST-C171KS
 	-1   0    0    1   
 $EndComp
 $Comp
-L serial-mini:RESISTOR0603-serial-mini R20
+L serial-mini-rescue:RESISTOR0603-serial-mini-serial-mini R20
 U 1 1 5F34B1D0
 P 10300 6500
 F 0 "R20" H 10300 6350 45  0000 C CNN
@@ -1473,7 +1419,7 @@ $EndComp
 Wire Wire Line
 	5800 3750 5850 3750
 $Comp
-L serial-mini:RESISTOR0603-serial-mini R17
+L serial-mini-rescue:RESISTOR0603-serial-mini-serial-mini R17
 U 1 1 5F3D4344
 P 5050 3750
 F 0 "R17" H 5050 4050 45  0000 C CNN
@@ -1496,21 +1442,11 @@ Text Label 10800 6500 0    50   ~ 0
 3V@20mA
 Text Label 5850 3750 0    50   ~ 0
 2V@15mA
-Text Label 9650 4550 0    50   ~ 0
-Green
-Text Label 9650 4350 0    50   ~ 0
-Red
-Text Label 9650 4150 0    50   ~ 0
-Blue
-Text Label 9200 4950 0    50   ~ 0
-RX
-Text Label 9200 5150 0    50   ~ 0
-TX
 $Comp
-L Connector:TestPoint TP5
+L Connector:TestPoint TP-5V1
 U 1 1 5F5E1403
 P 5700 2400
-F 0 "TP5" H 5758 2518 50  0000 L CNN
+F 0 "TP-5V1" H 5758 2518 50  0000 L CNN
 F 1 "TestPoint" H 5758 2427 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5900 2400 50  0001 C CNN
 F 3 "~" H 5900 2400 50  0001 C CNN
@@ -1523,10 +1459,10 @@ Wire Wire Line
 Wire Wire Line
 	7450 2500 7650 2500
 $Comp
-L Connector:TestPoint TP7
+L Connector:TestPoint TP-3.3V1
 U 1 1 5F5FBCAA
 P 7450 2500
-F 0 "TP7" H 7508 2618 50  0000 L CNN
+F 0 "TP-3.3V1" H 7508 2618 50  0000 L CNN
 F 1 "TestPoint" H 7508 2527 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7650 2500 50  0001 C CNN
 F 3 "~" H 7650 2500 50  0001 C CNN
@@ -1569,48 +1505,6 @@ F 3 "~" H 11850 2150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 11650 2150
-$Comp
-L Connector:TestPoint TP10
-U 1 1 5F618028
-P 9250 4550
-F 0 "TP10" H 9192 4576 50  0000 R CNN
-F 1 "TestPoint" H 9192 4667 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9450 4550 50  0001 C CNN
-F 3 "~" H 9450 4550 50  0001 C CNN
-	1    9250 4550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP9
-U 1 1 5F618F1D
-P 9250 4350
-F 0 "TP9" H 9192 4376 50  0000 R CNN
-F 1 "TestPoint" H 9192 4467 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9450 4350 50  0001 C CNN
-F 3 "~" H 9450 4350 50  0001 C CNN
-	1    9250 4350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP8
-U 1 1 5F6195B4
-P 9250 4150
-F 0 "TP8" H 9192 4176 50  0000 R CNN
-F 1 "TestPoint" H 9192 4267 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9450 4150 50  0001 C CNN
-F 3 "~" H 9450 4150 50  0001 C CNN
-	1    9250 4150
-	-1   0    0    1   
-$EndComp
-Connection ~ 9250 4150
-Wire Wire Line
-	9250 4150 11150 4150
-Connection ~ 9250 4350
-Connection ~ 9250 4550
-Wire Wire Line
-	9250 4550 11350 4550
-Wire Wire Line
-	9250 4350 11250 4350
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5F64A959
@@ -1696,17 +1590,14 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5F693E2D
-P 5500 5750
-F 0 "TP4" H 5558 5868 50  0000 L CNN
-F 1 "TestPoint" H 5558 5777 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5700 5750 50  0001 C CNN
-F 3 "~" H 5700 5750 50  0001 C CNN
-	1    5500 5750
+P 9750 4950
+F 0 "TP4" H 9808 5068 50  0000 L CNN
+F 1 "TestPoint" H 9808 4977 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 9950 4950 50  0001 C CNN
+F 3 "~" H 9950 4950 50  0001 C CNN
+	1    9750 4950
 	1    0    0    -1  
 $EndComp
-Connection ~ 5500 5750
-Wire Wire Line
-	5500 5750 5350 5750
 $Comp
 L Connector:TestPoint TP11
 U 1 1 5F69468A
@@ -1722,31 +1613,25 @@ Connection ~ 9300 3750
 $Comp
 L Connector:TestPoint TP13
 U 1 1 5F6A2683
-P 9450 4950
-F 0 "TP13" H 9508 5068 50  0000 L CNN
-F 1 "TestPoint" H 9508 4977 50  0000 L CNN
-F 2 "" H 9650 4950 50  0001 C CNN
-F 3 "~" H 9650 4950 50  0001 C CNN
-	1    9450 4950
-	1    0    0    -1  
+P 3300 4200
+F 0 "TP13" H 3350 4500 50  0000 L CNN
+F 1 "TestPoint" H 3300 4400 50  0000 L CNN
+F 2 "" H 3500 4200 50  0001 C CNN
+F 3 "~" H 3500 4200 50  0001 C CNN
+	1    3300 4200
+	-1   0    0    1   
 $EndComp
-Connection ~ 9450 4950
-Wire Wire Line
-	9450 4950 9650 4950
 $Comp
 L Connector:TestPoint TP14
 U 1 1 5F6A3279
-P 9450 5150
-F 0 "TP14" H 9508 5268 50  0000 L CNN
-F 1 "TestPoint" H 9508 5177 50  0000 L CNN
-F 2 "" H 9650 5150 50  0001 C CNN
-F 3 "~" H 9650 5150 50  0001 C CNN
-	1    9450 5150
+P 3300 4100
+F 0 "TP14" H 3400 4300 50  0000 L CNN
+F 1 "TestPoint" H 3400 4200 50  0000 L CNN
+F 2 "" H 3500 4100 50  0001 C CNN
+F 3 "~" H 3500 4100 50  0001 C CNN
+	1    3300 4100
 	1    0    0    -1  
 $EndComp
-Connection ~ 9450 5150
-Wire Wire Line
-	9450 5150 9850 5150
 Connection ~ 7450 2500
 Wire Wire Line
 	10100 7600 10300 7600
@@ -1824,10 +1709,10 @@ F 3 "~" H 5300 3000 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP-GND1
 U 1 1 5F8BEC1A
 P 5300 2900
-F 0 "TP?" H 5358 3018 50  0000 L CNN
+F 0 "TP-GND1" H 5358 3018 50  0000 L CNN
 F 1 "TestPoint" H 5358 2927 50  0000 L CNN
 F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5500 2900 50  0001 C CNN
 F 3 "~" H 5500 2900 50  0001 C CNN
@@ -1837,4 +1722,71 @@ $EndComp
 Connection ~ 5300 2900
 Wire Wire Line
 	5300 2900 5300 2800
+Text GLabel 6200 5950 0    50   Input ~ 0
+Red
+Text GLabel 6200 6150 0    50   Input ~ 0
+Blue
+Text GLabel 6200 6350 0    50   Input ~ 0
+Green
+Text GLabel 11150 4150 0    50   Input ~ 0
+Blue
+Text GLabel 11250 4350 0    50   Input ~ 0
+Red
+Text GLabel 11350 4550 0    50   Input ~ 0
+Green
+Wire Wire Line
+	11150 4150 11150 2600
+Text GLabel 9000 4350 2    50   Input ~ 0
+SWITCH_OUT_3
+Text GLabel 9000 4150 2    50   Input ~ 0
+SWITCH_OUT_2
+Text GLabel 9000 4550 2    50   Input ~ 0
+SWITCH_OUT_1
+$Comp
+L serial-mini:DSPIC33CK64MP102 U3
+U 1 1 5D12D49B
+P 7200 4900
+F 0 "U3" H 7600 6415 50  0000 C CNN
+F 1 "DSPIC33CK64MP102" H 7600 6324 50  0000 C CNN
+F 2 "footprints:‎DSPIC33CK32MP102" H 7200 4900 50  0001 C CNN
+F 3 "http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en609411" H 7200 4900 50  0001 C CNN
+	1    7200 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 6150 10650 6150
+Wire Wire Line
+	10650 6150 10650 5900
+Wire Wire Line
+	10650 5900 11200 5900
+Wire Wire Line
+	11200 5700 10400 5700
+Wire Wire Line
+	10400 5700 10400 6350
+Wire Wire Line
+	10400 6350 9000 6350
+Text GLabel 3400 4100 2    50   Input ~ 0
+TX
+Text GLabel 3400 4200 2    50   Input ~ 0
+RX
+Text GLabel 6200 5550 0    50   Input ~ 0
+RX
+Text GLabel 6200 5750 0    50   Input ~ 0
+TX
+Wire Wire Line
+	3400 4200 3300 4200
+Wire Wire Line
+	3100 4100 3300 4100
+Connection ~ 3300 4200
+Wire Wire Line
+	3300 4200 3100 4200
+Connection ~ 3300 4100
+Wire Wire Line
+	3300 4100 3400 4100
+Wire Wire Line
+	9000 5150 9750 5150
+Wire Wire Line
+	9750 5150 9750 4950
+Connection ~ 9750 4950
+NoConn ~ 9000 4950
 $EndSCHEMATC
