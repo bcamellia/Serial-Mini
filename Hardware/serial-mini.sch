@@ -1789,4 +1789,7 @@ Wire Wire Line
 	9750 5150 9750 4950
 Connection ~ 9750 4950
 NoConn ~ 9000 4950
+NoConn ~ 5600 7400
+NoConn ~ 4050 4700
+NoConn ~ 7550 3200
 $EndSCHEMATC

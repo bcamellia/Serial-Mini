@@ -179,11 +179,11 @@ Text GLabel 9000 5950 2    50   Input ~ 0
 PGD
 Text GLabel 9000 5750 2    50   Input ~ 0
 PGC
-Text GLabel 6100 7500 0    50   Input ~ 0
-SWITCH_OUT_1
 Text GLabel 6100 7900 0    50   Input ~ 0
+SWITCH_OUT_1
+Text GLabel 8300 7700 2    50   Input ~ 0
 SWITCH_OUT_2
-Text GLabel 9850 8400 0    50   Input ~ 0
+Text GLabel 6100 7500 0    50   Input ~ 0
 SWITCH_OUT_3
 $Comp
 L serial-mini:Capacitor C7
