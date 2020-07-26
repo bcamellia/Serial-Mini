@@ -1792,4 +1792,5 @@ Text GLabel 9000 4750 2    50   Input ~ 0
 Status
 Text GLabel 5350 3700 2    50   Input ~ 0
 Status
+NoConn ~ 6200 3750
 $EndSCHEMATC
