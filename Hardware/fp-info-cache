@@ -1,4 +1,4 @@
-18718929794287053
+18722121607089053
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82054,6 +82054,13 @@ footprints
 14
 14
 footprints
+AMPHENOL_10103593-0001LF
+
+
+0
+11
+11
+footprints
 BSS123LT1G
 
 
@@ -82110,6 +82117,13 @@ MIC5504
 5
 5
 footprints
+Nexperia-SOT886-11_2018-0-MFG
+
+
+0
+6
+6
+footprints
 PICKITv3
 Through hole straight pin header, 1x06, 2.54mm pitch, single row
 Through hole pin header THT 1x06 2.54mm single row
@@ -82148,8 +82162,6 @@ footprints
 ‎DSPIC33CK32MP102
 <b>28-Lead Plastic Quad Flat No Lead Package (ML)</b><br>
  6x6 mm Body, Punch Singulated (QFN)<p>
-Source: ww1.microchip.com/downloads/en/DeviceDoc/39605c.pdf
-
 0
-33
-31
+0
+0
