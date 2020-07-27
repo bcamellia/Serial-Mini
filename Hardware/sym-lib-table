@@ -1,4 +1,3 @@
 (sym_lib_table
   (lib (name serial-mini)(type Legacy)(uri ${KIPRJMOD}/serial-mini.lib)(options "")(descr ""))
-  (lib (name serial-mini-rescue)(type Legacy)(uri ${KIPRJMOD}/serial-mini-rescue.lib)(options "")(descr ""))
 )
