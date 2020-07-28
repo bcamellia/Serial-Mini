@@ -133,7 +133,7 @@ AR Path="/5F7EF812" Ref="TP-5V?"  Part="1"
 AR Path="/5F6537ED/5F7EF812" Ref="TP-5V1"  Part="1" 
 F 0 "TP-5V1" H 5008 3868 50  0000 L CNN
 F 1 "TestPoint" H 5008 3777 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5150 3750 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 5150 3750 50  0001 C CNN
 F 3 "~" H 5150 3750 50  0001 C CNN
 	1    4950 3750
 	1    0    0    -1  
@@ -151,7 +151,7 @@ AR Path="/5F7EF81B" Ref="TP-3.3V?"  Part="1"
 AR Path="/5F6537ED/5F7EF81B" Ref="TP-3.3V1"  Part="1" 
 F 0 "TP-3.3V1" H 6758 3968 50  0000 L CNN
 F 1 "TestPoint" H 6758 3877 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6900 3850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 6900 3850 50  0001 C CNN
 F 3 "~" H 6900 3850 50  0001 C CNN
 	1    6700 3850
 	1    0    0    -1  
@@ -217,7 +217,7 @@ AR Path="/5F7EF83B" Ref="TP-GND?"  Part="1"
 AR Path="/5F6537ED/5F7EF83B" Ref="TP-GND1"  Part="1" 
 F 0 "TP-GND1" H 4608 4368 50  0000 L CNN
 F 1 "TestPoint" H 4608 4277 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4750 4250 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 4750 4250 50  0001 C CNN
 F 3 "~" H 4750 4250 50  0001 C CNN
 	1    4550 4250
 	0    -1   -1   0   

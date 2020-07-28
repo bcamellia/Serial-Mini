@@ -154,7 +154,7 @@ AR Path="/5F793686" Ref="FB?"  Part="1"
 AR Path="/5F78F2B4/5F793686" Ref="FB1"  Part="1" 
 F 0 "FB1" H 8600 4796 50  0000 L CNN
 F 1 "Ferrite_Bead_Small" H 8600 4705 50  0000 L CNN
-F 2 "" V 8430 4750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8430 4750 50  0001 C CNN
 F 3 "~" H 8500 4750 50  0001 C CNN
 	1    8500 4750
 	1    0    0    -1  
@@ -351,38 +351,6 @@ NoConn ~ 3250 4100
 NoConn ~ 3250 4000
 NoConn ~ 3250 3700
 NoConn ~ 3250 3500
-Wire Wire Line
-	4700 2400 4700 2600
-$Comp
-L power:GND #PWR?
-U 1 1 5F793703
-P 4700 2400
-AR Path="/5F793703" Ref="#PWR?"  Part="1" 
-AR Path="/5F78F2B4/5F793703" Ref="#PWR034"  Part="1" 
-F 0 "#PWR034" H 4700 2150 50  0001 C CNN
-F 1 "GND" H 4705 2227 50  0000 C CNN
-F 2 "" H 4700 2400 50  0001 C CNN
-F 3 "" H 4700 2400 50  0001 C CNN
-	1    4700 2400
-	1    0    0    1   
-$EndComp
-Connection ~ 4700 3100
-Wire Wire Line
-	4700 2900 4700 3100
-$Comp
-L serial-mini:Capacitor C?
-U 1 1 5F79370C
-P 4700 2700
-AR Path="/5F79370C" Ref="C?"  Part="1" 
-AR Path="/5F78F2B4/5F79370C" Ref="C9"  Part="1" 
-F 0 "C9" V 4550 2700 45  0000 C CNN
-F 1 "10uF" V 4550 2850 45  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4700 2950 20  0001 C CNN
-F 3 "" H 4700 2700 50  0001 C CNN
-F 4 "" H 4808 2666 60  0000 L CNN "Field4"
-	1    4700 2700
-	1    0    0    1   
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F793712

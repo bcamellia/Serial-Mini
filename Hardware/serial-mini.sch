@@ -317,7 +317,7 @@ U 1 1 5F68536D
 P 6250 4800
 F 0 "TP6" H 6192 4826 50  0000 R CNN
 F 1 "TestPoint" H 6192 4917 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6450 4800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 6450 4800 50  0001 C CNN
 F 3 "~" H 6450 4800 50  0001 C CNN
 	1    6250 4800
 	-1   0    0    1   
@@ -382,7 +382,7 @@ Wire Wire Line
 Wire Wire Line
 	10450 5650 9900 5650
 $Sheet
-S 7450 2550 1750 1050
+S 7600 2650 1450 900 
 U 5F6537ED
 F0 "3.3V Regulator" 50
 F1 "regulator.sch" 50

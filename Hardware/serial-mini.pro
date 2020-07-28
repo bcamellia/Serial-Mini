@@ -1,4 +1,4 @@
-update=Sun 26 Jul 2020 05:50:23 PM EDT
+update=Mon 27 Jul 2020 07:39:51 PM EDT
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=serial-mini.net
+LastNetListRead=serial-mini-optimized.net
 CopperLayerCount=4
 BoardThickness=1.6002
 AllowMicroVias=0
@@ -41,6 +41,9 @@ MinHoleToHole=0.4
 TrackWidth1=0.127
 TrackWidth2=0.15
 TrackWidth3=0.1524
+TrackWidth4=0.2
+TrackWidth5=0.4
+TrackWidth6=0.6
 ViaDiameter1=0.6
 ViaDrill1=0.3
 ViaDiameter2=0.6

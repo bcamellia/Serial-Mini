@@ -418,7 +418,7 @@ AR Path="/5F6BE002" Ref="TP?"  Part="1"
 AR Path="/5F577AC1/5F6BE002" Ref="TP5"  Part="1" 
 F 0 "TP5" H 4358 2468 50  0000 L CNN
 F 1 "TestPoint" H 4358 2377 50  0000 L CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4500 2350 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 4500 2350 50  0001 C CNN
 F 3 "~" H 4500 2350 50  0001 C CNN
 	1    4300 2350
 	1    0    0    -1  

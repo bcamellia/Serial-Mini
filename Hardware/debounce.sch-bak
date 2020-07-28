@@ -126,7 +126,7 @@ $EndComp
 Wire Wire Line
 	4650 3550 4650 3750
 Wire Wire Line
-	4550 3750 4650 3750
+	4550 3750 4600 3750
 Connection ~ 4650 3750
 Wire Wire Line
 	4650 3750 4750 3750
@@ -364,7 +364,7 @@ F 4 "CHERRY_MX" H 8550 4081 60  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6950 3950 7550 3950
+	6950 3950 7450 3950
 Wire Wire Line
 	6950 3850 7250 3850
 NoConn ~ 6950 4350
@@ -385,14 +385,14 @@ $EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F4E2371
-P 3750 3750
+P 4600 3750
 AR Path="/5F4E2371" Ref="TP?"  Part="1" 
 AR Path="/5F413993/5F4E2371" Ref="TP1"  Part="1" 
-F 0 "TP1" H 3692 3776 50  0000 R CNN
-F 1 "TestPoint" H 3692 3867 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3950 3750 50  0001 C CNN
-F 3 "~" H 3950 3750 50  0001 C CNN
-	1    3750 3750
+F 0 "TP1" H 4542 3776 50  0000 R CNN
+F 1 "TestPoint" H 4542 3867 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 4800 3750 50  0001 C CNN
+F 3 "~" H 4800 3750 50  0001 C CNN
+	1    4600 3750
 	-1   0    0    1   
 $EndComp
 Connection ~ 3750 3750
@@ -415,14 +415,14 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F4E2380
-P 8050 3950
+P 7450 3950
 AR Path="/5F4E2380" Ref="TP?"  Part="1" 
 AR Path="/5F413993/5F4E2380" Ref="TP3"  Part="1" 
-F 0 "TP3" H 7992 3976 50  0000 R CNN
-F 1 "TestPoint" H 7992 4067 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 8250 3950 50  0001 C CNN
-F 3 "~" H 8250 3950 50  0001 C CNN
-	1    8050 3950
+F 0 "TP3" H 7392 3976 50  0000 R CNN
+F 1 "TestPoint" H 7392 4067 50  0000 R CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 7650 3950 50  0001 C CNN
+F 3 "~" H 7650 3950 50  0001 C CNN
+	1    7450 3950
 	-1   0    0    1   
 $EndComp
 Connection ~ 8050 3950
@@ -453,4 +453,10 @@ F 3 "" H 8950 3950 50  0001 C CNN
 	1    8950 3950
 	0    -1   -1   0   
 $EndComp
+Connection ~ 4600 3750
+Wire Wire Line
+	4600 3750 4650 3750
+Connection ~ 7450 3950
+Wire Wire Line
+	7450 3950 7550 3950
 $EndSCHEMATC
