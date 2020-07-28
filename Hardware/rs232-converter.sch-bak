@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -67,7 +67,7 @@ AR Path="/5F838243" Ref="U?"  Part="1"
 AR Path="/5F821E36/5F838243" Ref="U1"  Part="1" 
 F 0 "U1" H 6600 4981 50  0000 C CNN
 F 1 "MAX232" H 6600 4890 50  0000 C CNN
-F 2 "" H 6650 2550 50  0001 L CNN
+F 2 "footprints:MAX232ECPWR" H 6650 2550 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 6600 3700 50  0001 C CNN
 	1    6600 3600
 	1    0    0    -1  
@@ -140,9 +140,9 @@ Wire Wire Line
 Wire Wire Line
 	7500 4300 7550 4300
 Text HLabel 5800 3900 0    50   Input ~ 0
-TX-Serial-Port
+Serial-Port-TX
 Text HLabel 5800 4300 0    50   Input ~ 0
-RX-Serial-Port
+Serial-Port-RX
 $Comp
 L serial-mini:Capacitor C?
 U 1 1 5F89CF95
@@ -212,5 +212,8 @@ $EndComp
 Connection ~ 7550 4300
 Wire Wire Line
 	7550 4300 7950 4300
-NoConn ~ 7950 5100
+Text Label 7550 4400 0    50   ~ 0
+RS232-TX
+Text Label 7550 4300 0    50   ~ 0
+RS232-RX
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 7
+Sheet 5 7
 Title ""
 Date ""
 Rev ""
@@ -154,7 +154,7 @@ AR Path="/5F793686" Ref="FB?"  Part="1"
 AR Path="/5F78F2B4/5F793686" Ref="FB1"  Part="1" 
 F 0 "FB1" H 8600 4796 50  0000 L CNN
 F 1 "Ferrite_Bead_Small" H 8600 4705 50  0000 L CNN
-F 2 "" V 8430 4750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8430 4750 50  0001 C CNN
 F 3 "~" H 8500 4750 50  0001 C CNN
 	1    8500 4750
 	1    0    0    -1  
@@ -476,13 +476,19 @@ F 3 "" H 2900 4500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text HLabel 2700 3100 0    50   Input ~ 0
-RX-USB
+USB-RX
 Text HLabel 2700 3300 0    50   Input ~ 0
-TX-USB
+USB-TX
 Wire Wire Line
 	3250 3100 2700 3100
 Text Label 5850 3400 2    50   ~ 0
 VUSB
 Text Label 8500 4100 2    50   ~ 0
 VUSB
+Text Label 8200 3750 0    50   ~ 0
+D+
+Text Label 8200 3850 0    50   ~ 0
+D-
+Text Label 7650 2650 0    50   ~ 0
+Shield
 $EndSCHEMATC

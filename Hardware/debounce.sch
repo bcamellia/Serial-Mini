@@ -301,8 +301,6 @@ Connection ~ 8150 3950
 Wire Wire Line
 	8150 3850 8150 3950
 Wire Wire Line
-	8000 3950 8050 3950
-Wire Wire Line
 	7550 3950 7600 3950
 Connection ~ 7550 3950
 Wire Wire Line
@@ -395,7 +393,6 @@ F 3 "~" H 4800 3750 50  0001 C CNN
 	1    4600 3750
 	-1   0    0    1   
 $EndComp
-Connection ~ 3750 3750
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F4E2378
@@ -425,9 +422,6 @@ F 3 "~" H 7650 3950 50  0001 C CNN
 	1    7450 3950
 	-1   0    0    1   
 $EndComp
-Connection ~ 8050 3950
-Wire Wire Line
-	8050 3950 8150 3950
 Wire Wire Line
 	8750 3950 8950 3950
 Wire Wire Line
@@ -459,4 +453,6 @@ Wire Wire Line
 Connection ~ 7450 3950
 Wire Wire Line
 	7450 3950 7550 3950
+Wire Wire Line
+	8000 3950 8150 3950
 $EndSCHEMATC

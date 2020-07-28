@@ -317,7 +317,7 @@ U 1 1 5F68536D
 P 6250 4800
 F 0 "TP6" H 6192 4826 50  0000 R CNN
 F 1 "TestPoint" H 6192 4917 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 6450 4800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 6450 4800 50  0001 C CNN
 F 3 "~" H 6450 4800 50  0001 C CNN
 	1    6250 4800
 	-1   0    0    1   
@@ -382,12 +382,6 @@ Wire Wire Line
 Wire Wire Line
 	10450 5650 9900 5650
 $Sheet
-S 7600 2650 1450 900 
-U 5F6537ED
-F0 "3.3V Regulator" 50
-F1 "regulator.sch" 50
-$EndSheet
-$Sheet
 S 4400 5750 600  600 
 U 5F66C553
 F0 "100MHz Oscillator" 50
@@ -423,8 +417,8 @@ S 11250 7050 900  650
 U 5F78F2B4
 F0 "USB to UART" 50
 F1 "usb-uart.sch" 50
-F2 "RX-USB" I L 11250 7450 50 
-F3 "TX-USB" I L 11250 7250 50 
+F2 "USB-RX" I L 11250 7450 50 
+F3 "USB-TX" I L 11250 7250 50 
 $EndSheet
 Wire Wire Line
 	9900 7250 11250 7250
@@ -441,8 +435,8 @@ S 4500 6700 750  550
 U 5F821E36
 F0 "TTL to RS232 Converter" 50
 F1 "rs232-converter.sch" 50
-F2 "RX-Serial-Port" I R 5250 6850 50 
-F3 "TX-Serial-Port" I R 5250 7000 50 
+F2 "Serial-Port-RX" I R 5250 6850 50 
+F3 "Serial-Port-TX" I R 5250 7000 50 
 $EndSheet
 Text Label 9900 4850 0    50   ~ 0
 Brightness
@@ -457,11 +451,41 @@ TX-Serial-Port
 Text Label 9900 5850 0    50   ~ 0
 Status
 Text Label 5250 7000 0    50   ~ 0
-TX-Serial-Port
+Serial-Port-TX
 Text Label 11150 4350 3    50   ~ 0
 PGD
 Text Label 11250 4350 3    50   ~ 0
 PGC
 Text Label 6250 4800 0    50   ~ 0
 Status
+$Sheet
+S 7500 2400 1850 1200
+U 5F22B342
+F0 "3.3V Regulator" 50
+F1 "power-regulator.sch" 50
+$EndSheet
+Text Label 10150 5250 0    50   ~ 0
+S2
+Text Label 10150 5450 0    50   ~ 0
+S3
+Text Label 10150 5650 0    50   ~ 0
+S1
+Text Label 10150 5050 0    50   ~ 0
+MCLR
+Text Label 10150 7450 0    50   ~ 0
+UART-RX
+Text Label 6850 6850 0    50   ~ 0
+Hue
+Text Label 6850 7050 0    50   ~ 0
+Red
+Text Label 6850 7250 0    50   ~ 0
+Green
+Text Label 6850 7450 0    50   ~ 0
+Blue
+Text Label 6100 6650 0    50   ~ 0
+RX-Serial-Port
+Text Label 5500 6250 0    50   ~ 0
+OSCO
+Text Label 10150 7250 0    50   ~ 0
+UART-TX
 $EndSCHEMATC

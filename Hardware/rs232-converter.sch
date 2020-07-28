@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 7
+Sheet 6 7
 Title ""
 Date ""
 Rev ""
@@ -140,9 +140,9 @@ Wire Wire Line
 Wire Wire Line
 	7500 4300 7550 4300
 Text HLabel 5800 3900 0    50   Input ~ 0
-TX-Serial-Port
+Serial-Port-TX
 Text HLabel 5800 4300 0    50   Input ~ 0
-RX-Serial-Port
+Serial-Port-RX
 $Comp
 L serial-mini:Capacitor C?
 U 1 1 5F89CF95
@@ -212,4 +212,8 @@ $EndComp
 Connection ~ 7550 4300
 Wire Wire Line
 	7550 4300 7950 4300
+Text Label 7550 4400 0    50   ~ 0
+RS232-TX
+Text Label 7550 4300 0    50   ~ 0
+RS232-RX
 $EndSCHEMATC
