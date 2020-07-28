@@ -12,3 +12,4 @@ To-do:
 * Remove unused libraries
 * Double check connections
 * Add measurements and example video
+* Write firmware without using CCS
