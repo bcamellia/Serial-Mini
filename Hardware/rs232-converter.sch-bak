@@ -202,17 +202,17 @@ $EndComp
 Wire Wire Line
 	7400 3200 7550 3200
 $Comp
-L power:GND #PWR?
-U 1 1 5F26803F
+L power:+5V #PWR?
+U 1 1 5F8481FB
 P 8050 3200
-AR Path="/5F26803F" Ref="#PWR?"  Part="1" 
-AR Path="/5F821E36/5F26803F" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 8050 2950 50  0001 C CNN
-F 1 "GND" H 8055 3027 50  0000 C CNN
+AR Path="/5F8481FB" Ref="#PWR?"  Part="1" 
+AR Path="/5F821E36/5F8481FB" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 8050 3050 50  0001 C CNN
+F 1 "+5V" H 8065 3373 50  0000 C CNN
 F 2 "" H 8050 3200 50  0001 C CNN
 F 3 "" H 8050 3200 50  0001 C CNN
 	1    8050 3200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	7850 3200 8050 3200

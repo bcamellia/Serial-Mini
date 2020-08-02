@@ -1,5 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CLVBA-FKA-CAEDH8BBB7A363
+F http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616SEEZGKQBKC.pdf
+$ENDCMP
+#
+$CMP IRLML2060TRPbF
+D N-MOSFET transistor, gate/drain/source
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
 $CMP PRTR5V0U2F,115
 D PRTR5V0U2F,115
 F https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2F_PRTR5V0U2K.pdf

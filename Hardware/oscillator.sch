@@ -83,22 +83,7 @@ $EndComp
 Wire Wire Line
 	4850 4400 4850 4100
 Wire Wire Line
-	6450 3900 6800 3900
-Wire Wire Line
 	6450 4100 6550 4100
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5F68C85F
-P 6800 3900
-AR Path="/5F68C85F" Ref="TP?"  Part="1" 
-AR Path="/5F66C553/5F68C85F" Ref="TP10"  Part="1" 
-F 0 "TP10" H 6858 4018 50  0000 L CNN
-F 1 "TestPoint" H 6858 3927 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 7000 3900 50  0001 C CNN
-F 3 "~" H 7000 3900 50  0001 C CNN
-	1    6800 3900
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F68C865
@@ -112,9 +97,8 @@ F 3 "" H 4700 3900 50  0001 C CNN
 	1    4700 3900
 	0    1    1    0   
 $EndComp
-Connection ~ 6800 3900
-Wire Wire Line
-	6800 3900 7350 3900
 Text HLabel 7350 3900 2    50   Input ~ 0
 OSCO
+Wire Wire Line
+	6450 3900 7350 3900
 $EndSCHEMATC

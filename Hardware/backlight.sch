@@ -14,35 +14,35 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L serial-mini:SMD-LED-RGB(4P-0606) D?
+L serial-mini:CLVBA-FKA-CAEDH8BBB7A363 D?
 U 1 1 5F5BD596
 P 6350 4700
 AR Path="/5F5BD596" Ref="D?"  Part="1" 
 AR Path="/5F577AC1/5F5BD596" Ref="D3"  Part="1" 
 F 0 "D3" H 6350 4335 50  0000 C CNN
 F 1 "LED" H 6350 4426 50  0001 C CNN
-F 2 "footprints:CLVBA-FKA-CAEDH8BBB7A363" H 6350 4700 50  0001 L BNN
+F 2 "footprints:SOL150P350X210-4N" H 6350 4700 50  0001 L BNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616SEEZGKQBKC.pdf" H 6350 4700 50  0001 L BNN
 F 4 "" H 6350 4700 50  0001 L BNN "Field4"
 	1    6350 4700
 	-1   0    0    1   
 $EndComp
 $Comp
-L serial-mini:SMD-LED-RGB(4P-0606) D?
+L serial-mini:CLVBA-FKA-CAEDH8BBB7A363 D?
 U 1 1 5F5BD59D
 P 6350 3300
 AR Path="/5F5BD59D" Ref="D?"  Part="1" 
 AR Path="/5F577AC1/5F5BD59D" Ref="D1"  Part="1" 
 F 0 "D1" H 6350 2935 50  0000 C CNN
 F 1 "LED" H 6350 3026 50  0001 C CNN
-F 2 "footprints:CLVBA-FKA-CAEDH8BBB7A363" H 6350 3300 50  0001 L BNN
+F 2 "footprints:SOL150P350X210-4N" H 6350 3300 50  0001 L BNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616SEEZGKQBKC.pdf" H 6350 3300 50  0001 L BNN
 F 4 "" H 6350 3300 50  0001 L BNN "Field4"
 	1    6350 3300
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:Q_NMOS_GDS Q?
+L serial-mini:IRLML2060TRPbF Q?
 U 1 1 5F5BD5A3
 P 5300 3300
 AR Path="/5F5BD5A3" Ref="Q?"  Part="1" 
@@ -78,7 +78,7 @@ P 5900 3650
 AR Path="/5F5BD5B3" Ref="R?"  Part="1" 
 AR Path="/5F577AC1/5F5BD5B3" Ref="R13"  Part="1" 
 F 0 "R13" H 5900 3550 45  0001 C CNN
-F 1 "74" H 5900 3750 45  0000 C CNN
+F 1 "100" H 5900 3750 45  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 3800 20  0001 C CNN
 F 3 "" H 5900 3650 60  0001 C CNN
 F 4 " " H 5900 3771 60  0000 C CNN "Field4"
@@ -105,7 +105,7 @@ P 5850 4350
 AR Path="/5F5BD5C1" Ref="R?"  Part="1" 
 AR Path="/5F577AC1/5F5BD5C1" Ref="R11"  Part="1" 
 F 0 "R11" H 5850 4250 45  0001 C CNN
-F 1 "74" H 5850 4450 45  0000 C CNN
+F 1 "100" H 5850 4450 45  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5850 4500 20  0001 C CNN
 F 3 "" H 5850 4350 60  0001 C CNN
 F 4 " " H 5850 4471 60  0001 C CNN "Field4"
@@ -122,7 +122,7 @@ Wire Wire Line
 	5600 4350 5650 4350
 Connection ~ 5600 3650
 $Comp
-L Device:Q_NMOS_GDS Q?
+L serial-mini:IRLML2060TRPbF Q?
 U 1 1 5F5BD5CC
 P 5300 4000
 AR Path="/5F5BD5CC" Ref="Q?"  Part="1" 
@@ -143,7 +143,7 @@ P 5900 3250
 AR Path="/5F5BD5D4" Ref="R?"  Part="1" 
 AR Path="/5F577AC1/5F5BD5D4" Ref="R12"  Part="1" 
 F 0 "R12" H 5900 3150 45  0001 C CNN
-F 1 "130" H 5900 3350 45  0000 C CNN
+F 1 "155" H 5900 3350 45  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 3400 20  0001 C CNN
 F 3 "" H 5900 3250 60  0001 C CNN
 F 4 " " H 5900 3371 60  0000 C CNN "Field4"
@@ -165,7 +165,7 @@ P 5900 4000
 AR Path="/5F5BD5DF" Ref="R?"  Part="1" 
 AR Path="/5F577AC1/5F5BD5DF" Ref="R14"  Part="1" 
 F 0 "R14" H 5900 3900 45  0001 C CNN
-F 1 "130" H 5900 4100 45  0000 C CNN
+F 1 "155" H 5900 4100 45  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 4150 20  0001 C CNN
 F 3 "" H 5900 4000 60  0001 C CNN
 F 4 " " H 5900 4121 60  0000 C CNN "Field4"
@@ -182,14 +182,14 @@ Connection ~ 5500 3750
 Wire Wire Line
 	5500 3750 5500 3800
 $Comp
-L serial-mini:SMD-LED-RGB(4P-0606) D?
+L serial-mini:CLVBA-FKA-CAEDH8BBB7A363 D?
 U 1 1 5F5BD5EB
 P 6350 4000
 AR Path="/5F5BD5EB" Ref="D?"  Part="1" 
 AR Path="/5F577AC1/5F5BD5EB" Ref="D2"  Part="1" 
 F 0 "D2" H 6350 3635 50  0000 C CNN
 F 1 "LED" H 6350 3726 50  0001 C CNN
-F 2 "footprints:CLVBA-FKA-CAEDH8BBB7A363" H 6350 4000 50  0001 L BNN
+F 2 "footprints:SOL150P350X210-4N" H 6350 4000 50  0001 L BNN
 F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616SEEZGKQBKC.pdf" H 6350 4000 50  0001 L BNN
 F 4 "" H 6350 4000 50  0001 L BNN "Field4"
 	1    6350 4000
@@ -202,7 +202,7 @@ P 5900 4700
 AR Path="/5F5BD5F2" Ref="R?"  Part="1" 
 AR Path="/5F577AC1/5F5BD5F2" Ref="R16"  Part="1" 
 F 0 "R16" H 5900 4600 45  0001 C CNN
-F 1 "130" H 5900 4800 45  0000 C CNN
+F 1 "155" H 5900 4800 45  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 4850 20  0001 C CNN
 F 3 "" H 5900 4700 60  0001 C CNN
 F 4 " " H 5900 4821 60  0000 C CNN "Field4"
@@ -223,7 +223,7 @@ P 5950 5000
 AR Path="/5F5BD5FD" Ref="R?"  Part="1" 
 AR Path="/5F577AC1/5F5BD5FD" Ref="R19"  Part="1" 
 F 0 "R19" H 5950 4900 45  0001 C CNN
-F 1 "90" H 5950 5100 45  0000 C CNN
+F 1 "100" H 5950 5100 45  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5950 5150 20  0001 C CNN
 F 3 "" H 5950 5000 60  0001 C CNN
 F 4 " " H 5950 5121 60  0000 C CNN "Field4"
@@ -239,7 +239,7 @@ P 5900 4150
 AR Path="/5F5BD605" Ref="R?"  Part="1" 
 AR Path="/5F577AC1/5F5BD605" Ref="R15"  Part="1" 
 F 0 "R15" H 5900 4050 45  0001 C CNN
-F 1 "90" H 5900 4250 45  0000 C CNN
+F 1 "100" H 5900 4250 45  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5900 4300 20  0001 C CNN
 F 3 "" H 5900 4150 60  0001 C CNN
 F 4 " " H 5900 4271 60  0000 C CNN "Field4"
@@ -257,7 +257,7 @@ P 5950 3400
 AR Path="/5F5BD60E" Ref="R?"  Part="1" 
 AR Path="/5F577AC1/5F5BD60E" Ref="R18"  Part="1" 
 F 0 "R18" H 5950 3300 45  0001 C CNN
-F 1 "90" H 5950 3500 45  0000 C CNN
+F 1 "100" H 5950 3500 45  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5950 3550 20  0001 C CNN
 F 3 "" H 5950 3400 60  0001 C CNN
 F 4 " " H 5950 3521 60  0000 C CNN "Field4"
@@ -335,7 +335,7 @@ P 5800 2850
 AR Path="/5F5BD638" Ref="R?"  Part="1" 
 AR Path="/5F577AC1/5F5BD638" Ref="R10"  Part="1" 
 F 0 "R10" H 5800 2750 45  0001 C CNN
-F 1 "74" H 5800 2950 45  0000 C CNN
+F 1 "100" H 5800 2950 45  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5800 3000 20  0001 C CNN
 F 3 "" H 5800 2850 60  0001 C CNN
 F 4 " " H 5800 2971 60  0000 C CNN "Field4"
@@ -343,13 +343,13 @@ F 4 " " H 5800 2971 60  0000 C CNN "Field4"
 	1    0    0    -1  
 $EndComp
 Text Label 5400 3050 2    50   ~ 0
-1.7V@69mA
+2V@60mA
 Text Label 5500 3800 2    50   ~ 0
-3V@69mA
+3.1V@60mA
 Text Label 5400 4500 2    50   ~ 0
-1.7V@57mA
+2V@60mA
 $Comp
-L Device:Q_NMOS_GDS Q?
+L serial-mini:IRLML2060TRPbF Q?
 U 1 1 5F5BD641
 P 5300 4700
 AR Path="/5F5BD641" Ref="Q?"  Part="1" 
@@ -411,19 +411,6 @@ Red
 Text HLabel 5100 4700 0    50   Input ~ 0
 Green
 $Comp
-L Connector:TestPoint TP?
-U 1 1 5F6BE002
-P 4300 2350
-AR Path="/5F6BE002" Ref="TP?"  Part="1" 
-AR Path="/5F577AC1/5F6BE002" Ref="TP5"  Part="1" 
-F 0 "TP5" H 4358 2468 50  0000 L CNN
-F 1 "TestPoint" H 4358 2377 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 4500 2350 50  0001 C CNN
-F 3 "~" H 4500 2350 50  0001 C CNN
-	1    4300 2350
-	1    0    0    -1  
-$EndComp
-$Comp
 L serial-mini:3352T-1-103LF R?
 U 1 1 5F6BE00C
 P 4100 2350
@@ -467,7 +454,6 @@ F 3 "" H 4100 2650 50  0001 C CNN
 $EndComp
 Text HLabel 4700 2350 2    50   Input ~ 0
 Hue
-Connection ~ 4300 2350
 Wire Wire Line
 	4300 2350 4700 2350
 $Comp
@@ -514,20 +500,6 @@ F 3 "" H 3700 4000 50  0001 C CNN
 	1    3700 4000
 	1    0    0    -1  
 $EndComp
-Connection ~ 3900 3700
 Text HLabel 4250 3700 2    50   Input ~ 0
 Brightness
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5F70CB1C
-P 3900 3700
-AR Path="/5F70CB1C" Ref="TP?"  Part="1" 
-AR Path="/5F577AC1/5F70CB1C" Ref="TP4"  Part="1" 
-F 0 "TP4" V 3854 3888 50  0000 L CNN
-F 1 "TestPoint" V 3945 3888 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 4100 3700 50  0001 C CNN
-F 3 "~" H 4100 3700 50  0001 C CNN
-	1    3900 3700
-	1    0    0    -1  
-$EndComp
 $EndSCHEMATC
