@@ -100,32 +100,6 @@ F 4 "" H 7508 2766 60  0000 L CNN "Field4"
 	1    7400 2800
 	-1   0    0    1   
 $EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F842575
-P 8050 3500
-AR Path="/5F842575" Ref="#PWR?"  Part="1" 
-AR Path="/5F821E36/5F842575" Ref="#PWR043"  Part="1" 
-F 0 "#PWR043" H 8050 3250 50  0001 C CNN
-F 1 "GND" H 8055 3327 50  0000 C CNN
-F 2 "" H 8050 3500 50  0001 C CNN
-F 3 "" H 8050 3500 50  0001 C CNN
-	1    8050 3500
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5F8481FB
-P 8050 3200
-AR Path="/5F8481FB" Ref="#PWR?"  Part="1" 
-AR Path="/5F821E36/5F8481FB" Ref="#PWR042"  Part="1" 
-F 0 "#PWR042" H 8050 3050 50  0001 C CNN
-F 1 "+5V" H 8065 3373 50  0000 C CNN
-F 2 "" H 8050 3200 50  0001 C CNN
-F 3 "" H 8050 3200 50  0001 C CNN
-	1    8050 3200
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	7400 4300 7400 4400
 Wire Wire Line
@@ -157,10 +131,6 @@ F 4 "" H 7858 3166 60  0000 L CNN "Field4"
 	1    7750 3200
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7400 3200 7550 3200
-Wire Wire Line
-	7850 3200 8050 3200
 $Comp
 L serial-mini:Capacitor C?
 U 1 1 5F89F016
@@ -175,10 +145,6 @@ F 4 "" H 7858 3466 60  0000 L CNN "Field4"
 	1    7750 3500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7400 3500 7550 3500
-Wire Wire Line
-	7850 3500 8050 3500
 NoConn ~ 5800 4100
 NoConn ~ 5800 3700
 $Comp
@@ -216,4 +182,38 @@ Text Label 7550 4400 0    50   ~ 0
 RS232-TX
 Text Label 7550 4300 0    50   ~ 0
 RS232-RX
+Wire Wire Line
+	7850 3500 8050 3500
+Wire Wire Line
+	7400 3500 7550 3500
+$Comp
+L power:GND #PWR?
+U 1 1 5F842575
+P 8050 3500
+AR Path="/5F842575" Ref="#PWR?"  Part="1" 
+AR Path="/5F821E36/5F842575" Ref="#PWR043"  Part="1" 
+F 0 "#PWR043" H 8050 3250 50  0001 C CNN
+F 1 "GND" H 8055 3327 50  0000 C CNN
+F 2 "" H 8050 3500 50  0001 C CNN
+F 3 "" H 8050 3500 50  0001 C CNN
+	1    8050 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7400 3200 7550 3200
+$Comp
+L power:+5V #PWR?
+U 1 1 5F8481FB
+P 8050 3200
+AR Path="/5F8481FB" Ref="#PWR?"  Part="1" 
+AR Path="/5F821E36/5F8481FB" Ref="#PWR042"  Part="1" 
+F 0 "#PWR042" H 8050 3050 50  0001 C CNN
+F 1 "+5V" H 8065 3373 50  0000 C CNN
+F 2 "" H 8050 3200 50  0001 C CNN
+F 3 "" H 8050 3200 50  0001 C CNN
+	1    8050 3200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7850 3200 8050 3200
 $EndSCHEMATC

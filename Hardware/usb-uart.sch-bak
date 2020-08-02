@@ -280,24 +280,6 @@ Wire Wire Line
 	2900 3900 3250 3900
 Text Label 2850 3900 0    50   ~ 0
 3V@20mA
-$Comp
-L serial-mini:10118193-0001LF J?
-U 1 1 5F7936DD
-P 9000 3650
-AR Path="/5F7936DD" Ref="J?"  Part="1" 
-AR Path="/5F78F2B4/5F7936DD" Ref="J2"  Part="1" 
-F 0 "J2" H 8892 3085 50  0000 C CNN
-F 1 "USB Micro B" H 8892 3176 50  0000 C CNN
-F 2 "footprints:AMPHENOL_10103593-0001LF" H 9000 3650 50  0001 L BNN
-F 3 "https://www.digikey.com/product-detail/en/amphenol-icc-fci/10118193-0001LF/609-4616-1-ND/2785380?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 9000 3650 50  0001 L BNN
-F 4 "None" H 9000 3650 50  0001 L BNN "Field4"
-F 5 "" H 9000 3650 50  0001 L BNN "Field5"
-F 6 "10118193-0001LF" H 9000 3650 50  0001 L BNN "Field6"
-F 7 "Amphenol ICC" H 9000 3650 50  0001 L BNN "Field7"
-F 8 "609-4616-1-ND" H 9000 3650 50  0001 L BNN "Field8"
-	1    9000 3650
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	4650 4200 4650 3900
 Wire Wire Line
@@ -491,4 +473,18 @@ Text Label 8200 3850 0    50   ~ 0
 D-
 Text Label 7650 2650 0    50   ~ 0
 Shield
+$Comp
+L serial-mini:10103593-0001LF J2
+U 1 1 5F23D588
+P 9000 3750
+F 0 "J2" H 9230 3796 50  0000 L CNN
+F 1 "10103593-0001LF" H 9230 3705 50  0000 L CNN
+F 2 "footprints:AMPHENOL_10103593-0001LF" H 9000 3750 50  0001 L BNN
+F 3 "2.99mm" H 9000 3750 50  0001 L BNN
+F 4 "Amphenol FCI" H 9000 3750 50  0001 L BNN "Field4"
+F 5 "A" H 9000 3750 50  0001 L BNN "Field5"
+F 6 "Manufacturer Recommendations" H 9000 3750 50  0001 L BNN "Field6"
+	1    9000 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
