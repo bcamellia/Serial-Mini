@@ -45,8 +45,6 @@ Wire Wire Line
 	6550 4100 6650 4100
 Wire Wire Line
 	6950 4100 7200 4100
-Wire Wire Line
-	6550 4100 6550 4400
 $Comp
 L power:+3V3 #PWR?
 U 1 1 5F68C84C
@@ -60,11 +58,6 @@ F 3 "" H 6550 4550 50  0001 C CNN
 	1    6550 4550
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4850 4400 6550 4400
-Connection ~ 6550 4400
-Wire Wire Line
-	6550 4400 6550 4550
 Wire Wire Line
 	4700 3900 4850 3900
 $Comp
@@ -101,4 +94,38 @@ Text HLabel 7350 3900 2    50   Input ~ 0
 OSCO
 Wire Wire Line
 	6450 3900 7350 3900
+$Comp
+L serial-mini:Resistor R24
+U 1 1 5F351CC1
+P 5400 4400
+F 0 "R24" H 5400 4200 45  0000 C CNN
+F 1 "10k" H 5400 4300 45  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5400 4550 20  0001 C CNN
+F 3 "" H 5400 4400 60  0001 C CNN
+F 4 " " H 5400 4521 60  0000 C CNN "Field4"
+	1    5400 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4100 6550 4400
+Wire Wire Line
+	4850 4400 5200 4400
+Wire Wire Line
+	5600 4400 6550 4400
+Connection ~ 6550 4400
+Wire Wire Line
+	6550 4400 6550 4550
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F358C4F
+P 6900 3900
+AR Path="/5F358C4F" Ref="TP?"  Part="1" 
+AR Path="/5F66C553/5F358C4F" Ref="TP4"  Part="1" 
+F 0 "TP4" H 6842 3926 50  0000 R CNN
+F 1 "TestPoint" H 6842 4017 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7100 3900 50  0001 C CNN
+F 3 "~" H 7100 3900 50  0001 C CNN
+	1    6900 3900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

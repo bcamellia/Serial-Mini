@@ -41,7 +41,7 @@ AR Path="/5F83822F" Ref="TP?"  Part="1"
 AR Path="/5F821E36/5F83822F" Ref="TP13"  Part="1" 
 F 0 "TP13" H 7600 4700 50  0000 L CNN
 F 1 "TestPoint" H 7550 4600 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 7750 4400 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7750 4400 50  0001 C CNN
 F 3 "~" H 7750 4400 50  0001 C CNN
 	1    7550 4400
 	-1   0    0    1   
@@ -54,7 +54,7 @@ AR Path="/5F838235" Ref="TP?"  Part="1"
 AR Path="/5F821E36/5F838235" Ref="TP12"  Part="1" 
 F 0 "TP12" H 7650 4500 50  0000 L CNN
 F 1 "TestPoint" H 7650 4400 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 7750 4300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7750 4300 50  0001 C CNN
 F 3 "~" H 7750 4300 50  0001 C CNN
 	1    7550 4300
 	1    0    0    -1  

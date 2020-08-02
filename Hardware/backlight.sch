@@ -22,7 +22,7 @@ AR Path="/5F577AC1/5F5BD596" Ref="D3"  Part="1"
 F 0 "D3" H 6350 4335 50  0000 C CNN
 F 1 "LED" H 6350 4426 50  0001 C CNN
 F 2 "footprints:SOL150P350X210-4N" H 6350 4700 50  0001 L BNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616SEEZGKQBKC.pdf" H 6350 4700 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/CLVBAFKA.pdf" H 6350 4700 50  0001 L BNN
 F 4 "" H 6350 4700 50  0001 L BNN "Field4"
 	1    6350 4700
 	-1   0    0    1   
@@ -36,7 +36,7 @@ AR Path="/5F577AC1/5F5BD59D" Ref="D1"  Part="1"
 F 0 "D1" H 6350 2935 50  0000 C CNN
 F 1 "LED" H 6350 3026 50  0001 C CNN
 F 2 "footprints:SOL150P350X210-4N" H 6350 3300 50  0001 L BNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616SEEZGKQBKC.pdf" H 6350 3300 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/CLVBAFKA.pdf" H 6350 3300 50  0001 L BNN
 F 4 "" H 6350 3300 50  0001 L BNN "Field4"
 	1    6350 3300
 	-1   0    0    1   
@@ -190,7 +190,7 @@ AR Path="/5F577AC1/5F5BD5EB" Ref="D2"  Part="1"
 F 0 "D2" H 6350 3635 50  0000 C CNN
 F 1 "LED" H 6350 3726 50  0001 C CNN
 F 2 "footprints:SOL150P350X210-4N" H 6350 4000 50  0001 L BNN
-F 3 "http://www.kingbrightusa.com/images/catalog/SPEC/APTF1616SEEZGKQBKC.pdf" H 6350 4000 50  0001 L BNN
+F 3 "https://www.cree.com/led-components/media/documents/CLVBAFKA.pdf" H 6350 4000 50  0001 L BNN
 F 4 "" H 6350 4000 50  0001 L BNN "Field4"
 	1    6350 4000
 	-1   0    0    1   
@@ -369,7 +369,7 @@ AR Path="/5F5BD647" Ref="TP?"  Part="1"
 AR Path="/5F577AC1/5F5BD647" Ref="TP9"  Part="1" 
 F 0 "TP9" V 5595 4572 50  0000 C CNN
 F 1 "TestPoint" V 5504 4572 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 5600 4500 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5600 4500 50  0001 C CNN
 F 3 "~" H 5600 4500 50  0001 C CNN
 	1    5400 4500
 	0    -1   -1   0   
@@ -383,7 +383,7 @@ AR Path="/5F5BD64E" Ref="TP?"  Part="1"
 AR Path="/5F577AC1/5F5BD64E" Ref="TP8"  Part="1" 
 F 0 "TP8" V 5595 3872 50  0000 C CNN
 F 1 "TestPoint" V 5504 3872 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 5600 3800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5600 3800 50  0001 C CNN
 F 3 "~" H 5600 3800 50  0001 C CNN
 	1    5400 3800
 	0    -1   -1   0   
@@ -397,7 +397,7 @@ AR Path="/5F5BD655" Ref="TP?"  Part="1"
 AR Path="/5F577AC1/5F5BD655" Ref="TP7"  Part="1" 
 F 0 "TP7" V 5595 2922 50  0000 C CNN
 F 1 "TestPoint" V 5504 2922 50  0000 C CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 5600 2850 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 5600 2850 50  0001 C CNN
 F 3 "~" H 5600 2850 50  0001 C CNN
 	1    5400 2850
 	0    -1   -1   0   

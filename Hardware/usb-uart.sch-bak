@@ -129,8 +129,6 @@ Wire Wire Line
 	8500 5050 8500 4850
 Wire Wire Line
 	8500 3950 8500 4400
-Wire Wire Line
-	8500 4650 8500 4400
 Connection ~ 8500 4400
 $Comp
 L serial-mini:Capacitor C?
@@ -145,19 +143,6 @@ F 3 "" H 8400 4400 50  0001 C CNN
 F 4 "" H 8508 4366 60  0000 L CNN "Field4"
 	1    8400 4400
 	0    -1   1    0   
-$EndComp
-$Comp
-L Device:Ferrite_Bead_Small FB?
-U 1 1 5F793686
-P 8500 4750
-AR Path="/5F793686" Ref="FB?"  Part="1" 
-AR Path="/5F78F2B4/5F793686" Ref="FB1"  Part="1" 
-F 0 "FB1" H 8600 4796 50  0000 L CNN
-F 1 "Ferrite_Bead_Small" H 8600 4705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8430 4750 50  0001 C CNN
-F 3 "~" H 8500 4750 50  0001 C CNN
-	1    8500 4750
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
@@ -294,7 +279,7 @@ AR Path="/5F78F2B4/5F7936EB" Ref="U6"  Part="1"
 F 0 "U6" H 3950 4770 50  0000 C CNN
 F 1 "FT230XQ-R" H 3950 4679 50  0000 C CNN
 F 2 "footprints:FT230XQ" H 3950 3800 50  0001 L BNN
-F 3 "https://www.digikey.com/product-detail/en/ftdi-future-technology-devices-international-ltd/FT230XQ-R/768-1130-1-ND/3029158?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" H 3950 3800 50  0001 L BNN
+F 3 "https://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT230X.pdf" H 3950 3800 50  0001 L BNN
 F 4 "768-1130-1-ND" H 3950 3800 50  0001 L BNN "Field4"
 F 5 "QFN-16 FTDI" H 3950 3800 50  0001 L BNN "Field5"
 F 6 "FTDI," H 3950 3800 50  0001 L BNN "Field6"
@@ -439,7 +424,7 @@ AR Path="/5F7A05AE" Ref="TP?"  Part="1"
 AR Path="/5F78F2B4/5F7A05AE" Ref="TP11"  Part="1" 
 F 0 "TP11" H 2842 3926 50  0000 R CNN
 F 1 "TestPoint" H 2842 4017 50  0000 R CNN
-F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 3100 3900 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 3100 3900 50  0001 C CNN
 F 3 "~" H 3100 3900 50  0001 C CNN
 	1    2900 3900
 	-1   0    0    1   
@@ -485,6 +470,21 @@ F 4 "Amphenol FCI" H 9000 3750 50  0001 L BNN "Field4"
 F 5 "A" H 9000 3750 50  0001 L BNN "Field5"
 F 6 "Manufacturer Recommendations" H 9000 3750 50  0001 L BNN "Field6"
 	1    9000 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 4650 8500 4400
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5F793686
+P 8500 4750
+AR Path="/5F793686" Ref="FB?"  Part="1" 
+AR Path="/5F78F2B4/5F793686" Ref="FB1"  Part="1" 
+F 0 "FB1" H 8600 4796 50  0000 L CNN
+F 1 "Ferrite_Bead_Small" H 8600 4705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8430 4750 50  0001 C CNN
+F 3 "~" H 8500 4750 50  0001 C CNN
+	1    8500 4750
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
