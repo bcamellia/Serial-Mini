@@ -1,0 +1,63 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 10118193-0001LF-serial-mini
+#
+DEF 10118193-0001LF-serial-mini J 0 40 Y Y 1 L N
+F0 "J" -200 430 50 H V L BNN
+F1 "10118193-0001LF-serial-mini" -200 -500 50 H V L BNN
+F2 "FCI_10118193-0001LF" 0 0 50 H I L BNN
+F3 "Single Port 5 Contact Shielded SMT MICRO USB B-Type Receptacle" 0 0 50 H I L BNN
+F4 "None" 0 0 50 H I L BNN
+F5 "https://www.digikey.com/product-detail/en/amphenol-icc-fci/10118193-0001LF/609-4616-1-ND/2785380?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol" 0 0 50 H I L BNN
+F6 "10118193-0001LF" 0 0 50 H I L BNN
+F7 "Amphenol ICC" 0 0 50 H I L BNN
+F8 "609-4616-1-ND" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 6 -200 -400 -200 400 N
+P 2 0 0 6 -200 400 200 400 N
+P 2 0 0 6 200 -400 -200 -400 N
+P 2 0 0 6 200 400 200 -400 N
+X VUSB 1 -400 300 200 R 40 40 0 0 w
+X D- 2 -400 200 200 R 40 40 0 0 P
+X D+ 3 -400 100 200 R 40 40 0 0 P
+X ID 4 -400 0 200 R 40 40 0 0 P
+X GND 5 -400 -100 200 R 40 40 0 0 P
+X SHIELD S1 -400 -200 200 R 40 40 0 0 P
+X SHIELD S2 -400 -200 200 R 40 40 0 0 P
+X SHIELD S3 -400 -200 200 R 40 40 0 0 P
+X SHIELD S4 -400 -200 200 R 40 40 0 0 P
+X SHIELD S5 -400 -200 200 R 40 40 0 0 P
+X SHIELD S6 -400 -200 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+# RESISTOR0603-serial-mini-serial-mini
+#
+DEF RESISTOR0603-serial-mini-serial-mini R 0 40 N N 1 L N
+F0 "R" -200 50 45 H V L BNN
+F1 "RESISTOR0603-serial-mini-serial-mini" -200 -150 45 H V L BNN
+F2 "0603" 0 150 20 H I C CNN
+F3 "" 0 0 60 H I C CNN
+F4 " " 0 200 60 H V C CNN
+$FPLIST
+ *0603*
+ *0805*
+ *1206*
+$ENDFPLIST
+DRAW
+P 2 1 0 0 -100 0 -85 40 N
+P 2 1 0 0 -85 40 -60 -40 N
+P 2 1 0 0 -60 -40 -35 40 N
+P 2 1 0 0 -35 40 -10 -40 N
+P 2 1 0 0 -10 -40 15 40 N
+P 2 1 0 0 15 40 40 -40 N
+P 2 1 0 0 40 -40 65 40 N
+P 2 1 0 0 65 40 90 -40 N
+P 2 1 0 0 90 -40 100 0 N
+X 1 1 -200 0 100 R 40 40 1 1 P
+X 2 2 200 0 100 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

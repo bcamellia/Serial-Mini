@@ -1,4 +1,4 @@
-18652803500961053
+18723718385001053
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82054,6 +82054,13 @@ footprints
 14
 14
 footprints
+AMPHENOL_10103593-0001LF
+
+
+0
+11
+11
+footprints
 BSS123LT1G
 
 
@@ -82103,12 +82110,26 @@ Kailh_MX_Socket
 2
 2
 footprints
+MAX232ECPWR
+
+
+0
+16
+16
+footprints
 MIC5504
 
 
 0
 5
 5
+footprints
+Nexperia-SOT886-11_2018-0-MFG
+
+
+0
+6
+6
 footprints
 PICKITv3
 Through hole straight pin header, 1x06, 2.54mm pitch, single row

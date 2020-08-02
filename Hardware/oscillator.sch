@@ -1,0 +1,120 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L serial-mini:Capacitor C?
+U 1 1 5F68C83C
+P 6750 4100
+AR Path="/5F68C83C" Ref="C?"  Part="1" 
+AR Path="/5F66C553/5F68C83C" Ref="C8"  Part="1" 
+F 0 "C8" V 6600 4100 45  0000 C CNN
+F 1 "0.1UF" V 6600 4250 45  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6750 4350 20  0001 C CNN
+F 3 "" H 6750 4100 50  0001 C CNN
+F 4 "" H 6858 4066 60  0000 L CNN "Field4"
+	1    6750 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F68C842
+P 7200 4100
+AR Path="/5F68C842" Ref="#PWR?"  Part="1" 
+AR Path="/5F66C553/5F68C842" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 7200 3850 50  0001 C CNN
+F 1 "GND" H 7205 3927 50  0000 C CNN
+F 2 "" H 7200 4100 50  0001 C CNN
+F 3 "" H 7200 4100 50  0001 C CNN
+	1    7200 4100
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6550 4100
+Wire Wire Line
+	6550 4100 6650 4100
+Wire Wire Line
+	6950 4100 7200 4100
+Wire Wire Line
+	6550 4100 6550 4400
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5F68C84C
+P 6550 4550
+AR Path="/5F68C84C" Ref="#PWR?"  Part="1" 
+AR Path="/5F66C553/5F68C84C" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 6550 4400 50  0001 C CNN
+F 1 "+3V3" H 6565 4723 50  0000 C CNN
+F 2 "" H 6550 4550 50  0001 C CNN
+F 3 "" H 6550 4550 50  0001 C CNN
+	1    6550 4550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4850 4400 6550 4400
+Connection ~ 6550 4400
+Wire Wire Line
+	6550 4400 6550 4550
+Wire Wire Line
+	4700 3900 4850 3900
+$Comp
+L serial-mini:SIT2001BI-S2-33S-100.000000D U?
+U 1 1 5F68C856
+P 4850 3900
+AR Path="/5F68C856" Ref="U?"  Part="1" 
+AR Path="/5F66C553/5F68C856" Ref="U5"  Part="1" 
+F 0 "U5" H 5650 4287 60  0000 C CNN
+F 1 "SIT2001BI-S2-33S-100.000000D" H 5650 4181 60  0000 C CNN
+F 2 "footprints:SIT2001BI-S2-33S-100.000000D" H 5650 4140 60  0001 C CNN
+F 3 "https://www.digikey.com/product-detail/en/sitime/SIT2001BI-S2-33S-100.000000E/1473-SIT2001BI-S2-33S-100.000000E-ND/11292035" H 4850 3900 60  0001 C CNN
+	1    4850 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 4400 4850 4100
+Wire Wire Line
+	6450 3900 6800 3900
+Wire Wire Line
+	6450 4100 6550 4100
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F68C85F
+P 6800 3900
+AR Path="/5F68C85F" Ref="TP?"  Part="1" 
+AR Path="/5F66C553/5F68C85F" Ref="TP10"  Part="1" 
+F 0 "TP10" H 6858 4018 50  0000 L CNN
+F 1 "TestPoint" H 6858 3927 50  0000 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm" H 7000 3900 50  0001 C CNN
+F 3 "~" H 7000 3900 50  0001 C CNN
+	1    6800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F68C865
+P 4700 3900
+AR Path="/5F68C865" Ref="#PWR?"  Part="1" 
+AR Path="/5F66C553/5F68C865" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 4700 3650 50  0001 C CNN
+F 1 "GND" H 4705 3727 50  0000 C CNN
+F 2 "" H 4700 3900 50  0001 C CNN
+F 3 "" H 4700 3900 50  0001 C CNN
+	1    4700 3900
+	0    1    1    0   
+$EndComp
+Connection ~ 6800 3900
+Wire Wire Line
+	6800 3900 7350 3900
+Text HLabel 7350 3900 2    50   Input ~ 0
+OSCO
+$EndSCHEMATC
