@@ -1,4 +1,4 @@
-18723729910263053
+18723729912275053
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82068,13 +82068,6 @@ BSS123LT1G
 3
 3
 footprints
-CLVBA-FKA-CAEDH8BBB7A363
-
-
-0
-4
-4
-footprints
 DIOC200X125X110
 
 
@@ -82151,6 +82144,13 @@ SN74AHC14RGYR
 0
 19
 16
+footprints
+SOL150P350X210-4N
+
+
+0
+4
+4
 footprints
 TRIM_3352T-1-103LF
 
