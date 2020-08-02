@@ -93,7 +93,7 @@ $EndComp
 Text HLabel 7350 3900 2    50   Input ~ 0
 OSCO
 Wire Wire Line
-	6450 3900 7350 3900
+	6450 3900 6950 3900
 $Comp
 L serial-mini:Resistor R24
 U 1 1 5F351CC1
@@ -118,14 +118,17 @@ Wire Wire Line
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5F358C4F
-P 6900 3900
+P 6950 3900
 AR Path="/5F358C4F" Ref="TP?"  Part="1" 
 AR Path="/5F66C553/5F358C4F" Ref="TP4"  Part="1" 
-F 0 "TP4" H 6842 3926 50  0000 R CNN
-F 1 "TestPoint" H 6842 4017 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7100 3900 50  0001 C CNN
-F 3 "~" H 7100 3900 50  0001 C CNN
-	1    6900 3900
+F 0 "TP4" H 6892 3926 50  0000 R CNN
+F 1 "TestPoint" H 6892 4017 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_1.0x1.0mm" H 7150 3900 50  0001 C CNN
+F 3 "~" H 7150 3900 50  0001 C CNN
+	1    6950 3900
 	1    0    0    -1  
 $EndComp
+Connection ~ 6950 3900
+Wire Wire Line
+	6950 3900 7350 3900
 $EndSCHEMATC
