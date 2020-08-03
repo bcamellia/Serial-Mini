@@ -27,3 +27,12 @@ funclist
 *.symvers
 *.ko
 */.tmp_versions/
+
+#KiCad files
+
+*.sch-bak
+*.bck
+*.kicad_pcb-bak
+*.htm
+*/build/
+*build.zip
