@@ -20,7 +20,7 @@ P 7950 4200
 AR Path="/5F838222" Ref="J?"  Part="1" 
 AR Path="/5F821E36/5F838222" Ref="J3"  Part="1" 
 F 0 "J3" H 8478 3853 60  0000 L CNN
-F 1 "Serial Port" H 8478 3747 60  0000 L CNN
+F 1 "3-106505-2" H 8478 3747 60  0000 L CNN
 F 2 "footprints:3-106505-2" H 8350 3740 60  0001 C CNN
 F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=82068_AMPLIMITE_Right-Angle_Posted_Conn&DocType=CS&DocLang=English" H 7950 4200 60  0001 C CNN
 	1    7950 4200
@@ -66,7 +66,7 @@ P 6600 3600
 AR Path="/5F838243" Ref="U?"  Part="1" 
 AR Path="/5F821E36/5F838243" Ref="U1"  Part="1" 
 F 0 "U1" H 6600 4981 50  0000 C CNN
-F 1 "MAX232" H 6600 4890 50  0000 C CNN
+F 1 "MAX232ECPWR" H 6600 4890 50  0000 C CNN
 F 2 "footprints:MAX232ECPWR" H 6650 2550 50  0001 L CNN
 F 3 "http://www.ti.com/lit/ds/symlink/max232.pdf" H 6600 3700 50  0001 C CNN
 	1    6600 3600

@@ -20,7 +20,7 @@ P 6350 4700
 AR Path="/5F5BD596" Ref="D?"  Part="1" 
 AR Path="/5F577AC1/5F5BD596" Ref="D3"  Part="1" 
 F 0 "D3" H 6350 4335 50  0000 C CNN
-F 1 "LED" H 6350 4426 50  0001 C CNN
+F 1 "CLVBA-FKA" H 6350 4426 50  0001 C CNN
 F 2 "footprints:SOL150P350X210-4N" H 6350 4700 50  0001 L BNN
 F 3 "https://www.cree.com/led-components/media/documents/CLVBAFKA.pdf" H 6350 4700 50  0001 L BNN
 F 4 "" H 6350 4700 50  0001 L BNN "Field4"
@@ -34,7 +34,7 @@ P 6350 3300
 AR Path="/5F5BD59D" Ref="D?"  Part="1" 
 AR Path="/5F577AC1/5F5BD59D" Ref="D1"  Part="1" 
 F 0 "D1" H 6350 2935 50  0000 C CNN
-F 1 "LED" H 6350 3026 50  0001 C CNN
+F 1 "CLVBA-FKA" H 6350 3026 50  0001 C CNN
 F 2 "footprints:SOL150P350X210-4N" H 6350 3300 50  0001 L BNN
 F 3 "https://www.cree.com/led-components/media/documents/CLVBAFKA.pdf" H 6350 3300 50  0001 L BNN
 F 4 "" H 6350 3300 50  0001 L BNN "Field4"
@@ -188,7 +188,7 @@ P 6350 4000
 AR Path="/5F5BD5EB" Ref="D?"  Part="1" 
 AR Path="/5F577AC1/5F5BD5EB" Ref="D2"  Part="1" 
 F 0 "D2" H 6350 3635 50  0000 C CNN
-F 1 "LED" H 6350 3726 50  0001 C CNN
+F 1 "CLVBA-FKA" H 6350 3726 50  0001 C CNN
 F 2 "footprints:SOL150P350X210-4N" H 6350 4000 50  0001 L BNN
 F 3 "https://www.cree.com/led-components/media/documents/CLVBAFKA.pdf" H 6350 4000 50  0001 L BNN
 F 4 "" H 6350 4000 50  0001 L BNN "Field4"
