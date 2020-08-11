@@ -28,8 +28,6 @@ F 3 "" H 5550 2350 50  0001 C CNN
 	1    5550 2350
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	5550 2900 5850 2900
 $Comp
 L serial-mini:Capacitor C?
 U 1 1 5F79364C
@@ -50,10 +48,6 @@ Wire Wire Line
 	5300 4300 5300 4600
 Wire Wire Line
 	5550 4300 5300 4300
-Wire Wire Line
-	5550 3900 5850 3900
-Wire Wire Line
-	5550 4000 5550 3900
 $Comp
 L serial-mini:Capacitor C?
 U 1 1 5F793658
@@ -68,16 +62,6 @@ F 4 "" H 5658 4166 60  0000 L CNN "Field4"
 	1    5550 4200
 	-1   0    0    -1  
 $EndComp
-Connection ~ 5550 3900
-Wire Wire Line
-	5250 3900 5550 3900
-Wire Wire Line
-	5250 3500 5250 3900
-Connection ~ 5550 2900
-Wire Wire Line
-	5250 2900 5550 2900
-Wire Wire Line
-	5250 3300 5250 2900
 Wire Wire Line
 	4650 3500 4850 3500
 Wire Wire Line
@@ -163,12 +147,6 @@ Wire Wire Line
 	7350 2650 7350 3400
 Wire Wire Line
 	8200 2650 7350 2650
-Wire Wire Line
-	7650 2900 7050 2900
-Wire Wire Line
-	7650 3850 7650 2900
-Wire Wire Line
-	7050 3900 8100 3900
 $Comp
 L serial-mini:PRTR5V0U2F,115 D?
 U 1 1 5F7936B1
@@ -301,12 +279,6 @@ F 3 "" H 8500 5050 50  0001 C CNN
 	1    8500 5050
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	8600 3850 7650 3850
-Wire Wire Line
-	8100 3750 8100 3900
-Wire Wire Line
-	8600 3750 8100 3750
 Wire Wire Line
 	8550 3550 8600 3550
 Wire Wire Line
@@ -487,4 +459,34 @@ F 3 "~" H 8500 4750 50  0001 C CNN
 	1    8500 4750
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8600 3850 7650 3850
+Wire Wire Line
+	7050 2900 7750 2900
+Wire Wire Line
+	7750 2900 7750 3750
+Wire Wire Line
+	7750 3750 8600 3750
+Wire Wire Line
+	7650 3850 7650 3900
+Wire Wire Line
+	7650 3900 7050 3900
+Wire Wire Line
+	5250 3300 5550 3300
+Wire Wire Line
+	5850 3900 5550 3900
+Wire Wire Line
+	5550 3300 5550 3900
+Connection ~ 5550 3900
+Wire Wire Line
+	5550 3900 5550 4000
+Wire Wire Line
+	5250 3500 5350 3500
+Wire Wire Line
+	5350 3500 5350 2900
+Wire Wire Line
+	5350 2900 5550 2900
+Connection ~ 5550 2900
+Wire Wire Line
+	5550 2900 5850 2900
 $EndSCHEMATC

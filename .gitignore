@@ -35,4 +35,13 @@ funclist
 *.kicad_pcb-bak
 *.htm
 */build/
-*build.zip
+*.zip
+*_autosave*
+fp-info-cache
+*-cache.lib
+*-rescue.lib
+*-rescue.dcm
+*.net
+/Firmware/V2/serial-mini.X/build/
+/Firmware/V2/serial-mini.X/dist/
+*/bom/
