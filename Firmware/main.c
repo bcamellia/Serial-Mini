@@ -18,7 +18,7 @@
     The generated drivers are tested against the following:
         Compiler          :  XC16 v1.50
         MPLAB 	          :  MPLAB X v5.40
-*/
+ */
 
 /*
     (c) 2020 Microchip Technology Inc. and its subsidiaries. You may use this
@@ -40,34 +40,24 @@
 
     MICROCHIP PROVIDES THIS SOFTWARE CONDITIONALLY UPON YOUR ACCEPTANCE OF THESE
     TERMS.
-*/
+ */
 
-/**
-  Section: Included Files
-*/
 #include "mcc_generated_files/system.h"
 #include "mcc_generated_files/pin_manager.h"
 #include "mcc_generated_files/clock.h"
 #define FCY 80000000UL
 #include <libpic30.h>
 
-/*
-                         Main application
- */
 int main(void)
 {
-    // initialize the device
-    SYSTEM_Initialize();
-    while (1)
-    {
-        Status_SetLow();
-        __delay_ms(1000);
-        Status_SetHigh();
-        __delay_ms(1000);
-    }
-    return 1; 
+  // initialize the device
+  SYSTEM_Initialize();
+  while (1)
+  {
+    Status_SetLow();
+    __delay_ms(1000);
+    Status_SetHigh();
+    __delay_ms(1000);
+  }
+  return 1;
 }
-/**
- End of File
-*/
-
